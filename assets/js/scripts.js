@@ -386,8 +386,21 @@ $(function() {
                 c.find('tbody').html('');
                 
                 var sum_vaccinations_doses_1 = 0;
+                var sum_daily_vaccinations_doses_1 = 0;
                 var sum_vaccinations_doses_2 = 0;
+                var sum_daily_vaccinations_doses_2 = 0;
                 var sum_vaccinations_total = 0;
+
+                var doses_1_biggest = 0;
+                var doses_2_biggest = 0;
+                $.each(data, function (key, item) {
+                    if (item.daily_vaccinations[1] > doses_1_biggest) {
+                        doses_1_biggest = item.daily_vaccinations[1];
+                    }
+                    if (item.daily_vaccinations[2] > doses_2_biggest) {
+                        doses_2_biggest = item.daily_vaccinations[2];
+                    }
+                });
 
                 $.each(data, function (key, item) {
                     var vaccines = '';
@@ -418,14 +431,21 @@ $(function() {
                     });
 
                     var vaccinations_doses_1 = item.total_vaccinations[1] == null ? '0' : item.total_vaccinations[1];
+                    var daily_vaccinations_doses_1 = item.daily_vaccinations[1] == null ? '0' : item.daily_vaccinations[1];
                     var vaccinations_doses_2 = item.total_vaccinations[2] == null ? '0' : item.total_vaccinations[2];
+                    var daily_vaccinations_doses_2 = item.daily_vaccinations[2] == null ? '0' : item.daily_vaccinations[2];
                     var vaccinations_total = item.total_vaccinations.total == null ? '0' : item.total_vaccinations.total;
                     var vaccinations_doses_1_percentage = item.total_vaccinations.percentage_doses_1 == null ? '0' : item.total_vaccinations.percentage_doses_1;
                     var vaccinations_doses_2_percentage = item.total_vaccinations.percentage_doses_2 == null ? '0' : item.total_vaccinations.percentage_doses_2;
 
                     sum_vaccinations_doses_1 += item.total_vaccinations[1];
+                    sum_daily_vaccinations_doses_1 += item.daily_vaccinations[1];
                     sum_vaccinations_doses_2 += item.total_vaccinations[2];
+                    sum_daily_vaccinations_doses_2 += item.daily_vaccinations[2];
                     sum_vaccinations_total += item.total_vaccinations.total;
+
+                    var progress_doses_1 = daily_vaccinations_doses_1 / doses_1_biggest * 100;
+                    var progress_doses_2 = daily_vaccinations_doses_2 / doses_2_biggest * 100;
 
                     var td = '<tr>' +
                         '<td class="align-middle">' +
@@ -435,7 +455,19 @@ $(function() {
                         '</td>' +
                         '<td class="align-middle">'+vaccines+'</td>' +
                         '<td class="align-middle text-lg-center">'+numeral(vaccinations_doses_1).format('0,0')+'</td>' +
+                        '<td class="text-lg-center align-middle">' +
+                        '<div class="d-flex align-items-center">' +
+                        '<div class="w-50 text-end pe-2">'+numeral(daily_vaccinations_doses_1).format('0,0')+'</div>' +
+                        '<div class="w-50 progress"><div class="progress-bar bg-primary" role="progressbar" style="width: '+progress_doses_1+'%" aria-valuenow="'+progress_doses_1+'" aria-valuemin="0" aria-valuemax="100"></div></div>' +
+                        '</div>' +
+                        '</td>' +
                         '<td class="align-middle text-lg-center">'+numeral(vaccinations_doses_2).format('0,0')+'</td>' +
+                        '<td class="text-lg-center align-middle">' +
+                        '<div class="d-flex align-items-center">' +
+                        '<div class="w-50 text-end pe-2">'+numeral(daily_vaccinations_doses_2).format('0,0')+'</div>' +
+                        '<div class="w-50 progress"><div class="progress-bar bg-primary" role="progressbar" style="width: '+progress_doses_2+'%" aria-valuenow="'+progress_doses_2+'" aria-valuemin="0" aria-valuemax="100"></div></div>' +
+                        '</div>' +
+                        '</td>' +
                         '<td class="align-middle text-lg-center">'+numeral(vaccinations_total).format('0,0')+'</td>' +
                         '<td class="align-middle text-lg-center" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_1_percentage)+'">'+vaccinations_doses_1_percentage+'%</td>' +
                         '<td class="align-middle text-lg-center" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_2_percentage)+'">'+vaccinations_doses_2_percentage+'%</td>' +
@@ -447,7 +479,9 @@ $(function() {
                     '<th></th>' +
                     '<th class="border-start"></th>' +
                     '<th class="text-lg-center border-start">'+numeral(sum_vaccinations_doses_1).format('0,0')+'</th>' +
-                    '<th class="text-lg-center">'+numeral(sum_vaccinations_doses_2).format('0,0')+'</th>' +
+                    '<th class="text-lg-center border-start">'+numeral(sum_daily_vaccinations_doses_1).format('0,0')+'</th>' +
+                    '<th class="text-lg-center border-start">'+numeral(sum_vaccinations_doses_2).format('0,0')+'</th>' +
+                    '<th class="text-lg-center border-start">'+numeral(sum_daily_vaccinations_doses_2).format('0,0')+'</th>' +
                     '<th class="text-lg-center border-start">'+numeral(sum_vaccinations_total).format('0,0')+'</th>' +
                     '<th class="border-start"></th>' +
                     '<th data-hidden="doses_percentage"></th>' +
