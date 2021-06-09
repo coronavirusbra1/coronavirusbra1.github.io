@@ -194,3 +194,17 @@ table {
     cursor: pointer;
     background-color: #e6bf99;
 }
+.toasty{
+    position: fixed;
+    left: -110%;
+    bottom:0;
+    &--start {
+        animation: 2s toasty forwards ease;
+    }
+}
+@keyframes toasty {
+    0% { left: -110%; }
+    45% { left: 0; }
+    55% { left: 0; }
+    100%{ left: -110%; }
+}

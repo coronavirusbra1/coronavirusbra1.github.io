@@ -24,6 +24,41 @@ moment.locale('pt-br');
 // Numeral
 numeral.locale('pt-br');
 
+// Toasty
+// -- https://www.uplabs.com/posts/toasty-konami-code
+// -- UP, UP, DOWN, DOWN, LEFT, RIGHT, LEFT, RIGHT, B, A
+var konami_keys = {
+    37: 'left',
+    38: 'up',
+    39: 'right',
+    40: 'down',
+    65: 'a',
+    66: 'b'
+};
+var konami_code = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
+var konami_position = 0;
+document.addEventListener('keydown', function(e) {
+    var key = konami_keys[e.keyCode];
+    var required_key = konami_code[konami_position];
+    if (key == required_key) {
+        konami_position++;
+        if (konami_position == konami_code.length) {
+            activate_toasty();
+            konami_position = 0;
+        }
+    } else {
+        konami_position = 0;
+    }
+});
+function activate_toasty() {
+    var audio = new Audio('/assets/toasty.mp3');
+    audio.play();
+    $('.toasty').addClass('toasty--start');
+    setTimeout(function(){
+        $('.toasty').removeClass('toasty--start');
+    }, 3500);
+}
+
 $(function() {
     var endpoint = 'https://api.vacinacao-covid19.com/coronavirusbra1';
 
@@ -356,7 +391,7 @@ $(function() {
 
                 $.each(data, function (key, item) {
                     var vaccines = '';
-                    $.each(item.vaccinations.vaccine,function(i, data){
+                    $.each(item.vaccines,function(i, data){
                         if(data == 'Pfizer/BioNTech') {
                             var bg = 'primary';
                         }
@@ -382,15 +417,15 @@ $(function() {
                         vaccines += '<span class="me-1 badge bg-'+vaccine_style+'">'+data+'</span>';
                     });
 
-                    var vaccinations_doses_1 = item.vaccinations.doses_1 == null ? '0' : item.vaccinations.doses_1;
-                    var vaccinations_doses_2 = item.vaccinations.doses_2 == null ? '0' : item.vaccinations.doses_2;
-                    var vaccinations_total = item.vaccinations.total == null ? '0' : item.vaccinations.total;
-                    var vaccinations_doses_1_percentage = item.vaccinations.doses_1_percentage == null ? '0' : item.vaccinations.doses_1_percentage;
-                    var vaccinations_doses_2_percentage = item.vaccinations.doses_2_percentage == null ? '0' : item.vaccinations.doses_2_percentage;
+                    var vaccinations_doses_1 = item.total_vaccinations[1] == null ? '0' : item.total_vaccinations[1];
+                    var vaccinations_doses_2 = item.total_vaccinations[2] == null ? '0' : item.total_vaccinations[2];
+                    var vaccinations_total = item.total_vaccinations.total == null ? '0' : item.total_vaccinations.total;
+                    var vaccinations_doses_1_percentage = item.total_vaccinations.percentage_doses_1 == null ? '0' : item.total_vaccinations.percentage_doses_1;
+                    var vaccinations_doses_2_percentage = item.total_vaccinations.percentage_doses_2 == null ? '0' : item.total_vaccinations.percentage_doses_2;
 
-                    sum_vaccinations_doses_1 += item.vaccinations.doses_1;
-                    sum_vaccinations_doses_2 += item.vaccinations.doses_2;
-                    sum_vaccinations_total += item.vaccinations.total;
+                    sum_vaccinations_doses_1 += item.total_vaccinations[1];
+                    sum_vaccinations_doses_2 += item.total_vaccinations[2];
+                    sum_vaccinations_total += item.total_vaccinations.total;
 
                     var td = '<tr>' +
                         '<td class="align-middle">' +
