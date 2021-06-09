@@ -1,0 +1,151 @@
+@@include('../content/part_header.html', {
+	"page": "index"
+})
+
+<main class="container-fluid">
+
+	<div id="card_switch" class="my-2">
+		<div class="form-check form-check-inline">
+			<input class="form-check-input" type="checkbox" value="cases" id="card_filter_cases" checked>
+			<label class="form-check-label" for="card_filter_cases">Casos</label>
+		</div>
+		<div class="form-check form-check-inline">
+			<input class="form-check-input" type="checkbox" value="deaths" id="card_filter_deaths" checked>
+			<label class="form-check-label" for="card_filter_deaths">Óbitos</label>
+		</div>
+		<div class="form-check form-check-inline">
+			<input class="form-check-input" type="checkbox" value="recovered" id="card_filter_recovered" checked>
+			<label class="form-check-label" for="card_filter_recovered">Recuperados</label>
+		</div>
+		<div class="form-check form-check-inline">
+			<input class="form-check-input" type="checkbox" value="tests" id="card_filter_tests">
+			<label class="form-check-label" for="card_filter_tests">Testes realizados</label>
+		</div>
+		<div class="form-check form-check-inline">
+			<input class="form-check-input" type="checkbox" value="suspects" id="card_filter_suspects">
+			<label class="form-check-label" for="card_filter_suspects">Suspeitos</label>
+		</div>
+		<div class="form-check form-check-inline">
+			<input class="form-check-input" type="checkbox" value="vaccination" id="card_filter_vaccination" checked>
+			<label class="form-check-label" for="card_filter_vaccination">Vacinação</label>
+		</div>
+	</div>
+
+	<div id="card_list" class="row d-block d-lg-flex text-center">
+		@@include('../content/card_cases.html', {
+			"hidden": false
+		})
+		@@include('../content/card_deaths.html', {
+			"hidden": false
+		})
+		@@include('../content/card_recovered.html', {
+			"hidden": false
+		})
+		@@include('../content/card_tests.html', {
+			"hidden": true
+		})
+		@@include('../content/card_suspects.html', {
+			"hidden": true
+		})
+		@@include('../content/card_vaccination.html', {
+			"hidden": false
+		})
+	</div>
+
+	<div id="table_switch" class="my-2">
+		<div class="rounded border bg-white d-lg-flex">
+			<div class="p-2 px-lg-3 bg-light fw-bold title">
+				Coronavirus:
+			</div>
+			<div class="p-2 px-lg-3">
+				<div class="form-check form-check-inline mb-0">
+					<input class="form-check-input" type="checkbox" value="cases" id="card_table_cases" checked>
+					<label class="form-check-label" for="card_table_cases">Casos</label>
+				</div>
+				<div class="form-check form-check-inline mb-0">
+					<input class="form-check-input" type="checkbox" value="deaths" id="card_table_deaths" checked>
+					<label class="form-check-label" for="card_table_deaths">Óbitos</label>
+				</div>
+				<div class="form-check form-check-inline mb-0">
+					<input class="form-check-input" type="checkbox" value="tests" id="card_table_tests">
+					<label class="form-check-label" for="card_table_tests">Testes realizados</label>
+				</div>
+				<div class="form-check form-check-inline mb-0">
+					<input class="form-check-input" type="checkbox" value="suspects" id="card_table_suspects">
+					<label class="form-check-label" for="card_table_suspects">Suspeitos</label>
+				</div>
+				<div class="form-check form-check-inline mb-0">
+					<input class="form-check-input" type="checkbox" value="recovered" id="card_table_recovered">
+					<label class="form-check-label" for="card_table_recovered">Recuperados</label>
+				</div>
+			</div>
+			<div class="p-2 px-lg-3 bg-light fw-bold title">
+				Vacinação:
+			</div>
+			<div class="p-2 px-lg-3">
+				<div class="form-check form-check-inline mb-0">
+					<input class="form-check-input" type="checkbox" value="doses" id="card_table_doses" checked>
+					<label class="form-check-label" for="card_table_doses">Doses aplicadas</label>
+				</div>
+				<div class="form-check form-check-inline mb-0">
+					<input class="form-check-input" type="checkbox" value="doses_total" id="card_table_doses_total">
+					<label class="form-check-label" for="card_table_doses_total">Total de doses aplicadas</label>
+				</div>
+				<div class="form-check form-check-inline mb-0">
+					<input class="form-check-input" type="checkbox" value="doses_percentage" id="card_table_doses_percentage" checked>
+					<label class="form-check-label" for="card_table_doses_percentage">Percentual de doses aplicadas</label>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="rounded bg-white shadow-sm border border-dark mb-3 table-sticky overflow-auto">
+		<table id="table_global" class="table table-striped table-hover m-0 tablesorter">
+			<thead class="table-dark">
+				<tr>
+					<th rowspan="2">Estado</th>
+					<th colspan="2" class="text-lg-center sorter-false border-start" data-hidden="cases">Casos</th>
+					<th colspan="2" class="text-lg-center sorter-false border-start" data-hidden="deaths">Óbitos</th>
+					<th rowspan="2" class="text-lg-center border-start d-none" data-hidden="tests">Testes realizados</th>
+					<th rowspan="2" class="text-lg-center border-start d-none" data-hidden="suspects">Suspeitos</th>
+					<th rowspan="2" class="text-lg-center border-start d-none" data-hidden="recovered">Recuperados</th>
+					<th colspan="2" class="text-lg-center sorter-false border-start" data-hidden="doses">Doses aplicadas</th>
+					<th rowspan="2" class="text-center border-start sorter-digit d-none" data-hidden="doses_total">
+						<span class="d-block d-lg-none">Total</span>
+						<span class="d-none d-lg-block">Total de doses</span>
+					</th>
+					<th colspan="2" class="text-lg-center sorter-false border-start" data-hidden="doses_percentage">Pessoas vacinadas</th>
+				</tr>
+				<tr>
+					<th class="text-center border-start sorter-digit" style="min-width:130px" data-hidden="cases">Total</th>
+					<th class="text-center border-end-0 sorter-digit" style="min-width:130px" data-hidden="cases">Novos</th>
+					<th class="text-center border-start sorter-digit" style="min-width:130px" data-hidden="deaths">Total</th>
+					<th class="text-center border-end-0 sorter-digit" style="min-width:130px" data-hidden="deaths">Novos</th>
+					<th class="text-center border-start sorter-digit" data-hidden="doses">1ª</th>
+					<th class="text-center border-end-0 sorter-digit" data-hidden="doses">2ª</th>
+					<th class="text-center border-start sorter-percent" data-hidden="doses_percentage">1ª</th>
+					<th class="text-center border-end-0 sorter-percent" data-hidden="doses_percentage">2ª</th>
+				</tr>
+			</thead>
+			<tfoot class="table-dark">
+				
+			</tfoot>
+			<tbody>
+				<tr>
+					<td colspan="13" class="p-0">
+						<div class="bg-white d-flex py-5 h-100 align-items-center justify-content-center loading">
+							<div class="spinner-border text-secondary" role="status">
+								<span class="visually-hidden">Loading...</span>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+</main>
+
+@@include('../content/part_scripts.html', {
+	"page": "index"
+})
