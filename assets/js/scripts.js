@@ -305,7 +305,7 @@ $(function() {
                     var progress_deaths_new = deaths_new / deaths_biggest * 100;
 
                     var td = '<tr>' +
-                        '<td>' +
+                        '<td class="align-middle text-nowrap">' +
                             '<img class="mx-auto mb-1 rounded border border-secondary" src="//cdn.jsdelivr.net/gh/bgeneto/bandeiras-br/imagens/'+item.iso_code.toUpperCase()+'.png" width="20" />' +
                             '<span class="d-inline-block d-lg-none ms-2">'+item.iso_code.toUpperCase()+'</span>' +
                             '<span class="d-none d-lg-inline-block ms-2">'+item.state+'</span>' +
@@ -406,28 +406,35 @@ $(function() {
                     var vaccines = '';
                     $.each(item.vaccines,function(i, data){
                         if(data == 'Pfizer/BioNTech') {
-                            var bg = 'primary';
+                            var bg = 'pfizer-biontech';
+                            var short = 'PZ/BI';
                         }
                         if(data == 'Moderna') {
-                            var bg = 'MOD';
+                            var bg = 'moderna';
+                            var short = 'MDN';
                         }
                         if(data == 'Oxford/AstraZeneca') {
-                            var bg = 'warning';
+                            var bg = 'oxford-astrazeneca';
+                            var short = 'AZ';
                         }
                         if(data == 'Sputnik V') {
-                            var bg = 'SPV';
+                            var bg = 'sputnik-v';
+                            var short = 'SPV';
                         }
                         if(data == 'Covaxin') {
-                            var bg = 'COX';
+                            var bg = 'covaxin';
+                            var short = 'COX';
                         }
                         if(data == 'Sinovac/Butantan') {
-                            var bg = 'info';
+                            var bg = 'sinovac-butantan';
+                            var short = 'SN/BT';
                         }
                         if(data == 'Johnson&Johnson') {
-                            var bg = 'J&J';
+                            var bg = 'johnson-johnson';
+                            var short = 'J&J';
                         }
                         var vaccine_style = data.toLowerCase().replace(' ','-').replace('/','-').replace('&','-')
-                        vaccines += '<span class="me-1 badge bg-'+vaccine_style+'">'+data+'</span>';
+                        vaccines += '<span class="me-1 badge bg-'+vaccine_style+'" title="'+data+'">'+short+'</span>';
                     });
 
                     var vaccinations_doses_1 = item.total_vaccinations[1] == null ? '0' : item.total_vaccinations[1];
@@ -448,7 +455,7 @@ $(function() {
                     var progress_doses_2 = daily_vaccinations_doses_2 / doses_2_biggest * 100;
 
                     var td = '<tr>' +
-                        '<td class="align-middle">' +
+                        '<td class="align-middle text-nowrap">' +
                             '<img class="mx-auto mb-1 rounded border border-secondary" src="//cdn.jsdelivr.net/gh/bgeneto/bandeiras-br/imagens/'+item.iso_code.toUpperCase()+'.png" width="20" />' +
                             '<span class="d-inline-block d-lg-none ms-2">'+item.iso_code.toUpperCase()+'</span>' +
                             '<span class="d-none d-lg-inline-block ms-2">'+item.state+'</span>' +
