@@ -534,8 +534,8 @@ $(function() {
                             '<span class="d-none d-lg-inline-block ms-2">'+item.state+'</span>' +
                         '</td>' +
                         '<td>'+label+'</td>' +
-                        '<td>'+quantity+'</td>' +
                         '<td>'+occupied+'</td>' +
+                        '<td>'+quantity+'</td>' +
                         '<td class="text-center" style="'+percentage_raw+'">'+percentage+'</td>' +
                         '<td>'+moment(last_update).format('DD[/]MM[/]YY [às] HH[h]mm')+'</td>' +
                     '</tr>';
