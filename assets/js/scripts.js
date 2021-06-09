@@ -330,8 +330,8 @@ $(function() {
                         '<td class="text-lg-center" data-hidden="doses">'+numeral(vaccinations_doses_1).format('0,0')+'</td>' +
                         '<td class="text-lg-center" data-hidden="doses">'+numeral(vaccinations_doses_2).format('0,0')+'</td>' +
                         '<td class="text-lg-center d-none" data-hidden="doses_total">'+numeral(vaccinations_total).format('0,0')+'</td>' +
-                        '<td class="text-lg-center" data-hidden="doses_percentage" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_1_percentage)+'">'+vaccinations_doses_1_percentage+'%</td>' +
-                        '<td class="text-lg-center" data-hidden="doses_percentage" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_2_percentage)+'">'+vaccinations_doses_2_percentage+'%</td>' +
+                        '<td class="text-lg-center" data-hidden="doses_percentage" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_1_percentage)+'">'+numeral(vaccinations_doses_1_percentage).format('0,0')+'%</td>' +
+                        '<td class="text-lg-center" data-hidden="doses_percentage" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_2_percentage)+'">'+numeral(vaccinations_doses_2_percentage).format('0,0')+'%</td>' +
                     '</tr>';
                     c.find('tbody').append(td);
                 });
@@ -476,8 +476,8 @@ $(function() {
                         '</div>' +
                         '</td>' +
                         '<td class="align-middle text-lg-center">'+numeral(vaccinations_total).format('0,0')+'</td>' +
-                        '<td class="align-middle text-lg-center" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_1_percentage)+'">'+vaccinations_doses_1_percentage+'%</td>' +
-                        '<td class="align-middle text-lg-center" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_2_percentage)+'">'+vaccinations_doses_2_percentage+'%</td>' +
+                        '<td class="align-middle text-lg-center" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_1_percentage)+'">'+numeral(vaccinations_doses_1_percentage).format('0,0')+'%</td>' +
+                        '<td class="align-middle text-lg-center" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_2_percentage)+'">'+numeral(vaccinations_doses_2_percentage).format('0,0')+'%</td>' +
                     '</tr>';
                     c.find('tbody').append(td);
                 });
