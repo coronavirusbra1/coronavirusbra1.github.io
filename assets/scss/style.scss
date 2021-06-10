@@ -87,7 +87,12 @@ table {
         background-color: #d51900;
     }
 }
-
+.fs {
+    &-7 {
+        font-size: 0.85rem!important;
+        line-height: 1.3em;
+    }
+}
 /* Sorter */
 .tablesorter-bootstrap {
     width: 100%;

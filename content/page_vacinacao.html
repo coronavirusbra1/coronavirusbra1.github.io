@@ -12,7 +12,7 @@
 			<div class="p-2 px-lg-3">
 				<div class="form-check form-check-inline mb-0">
 					<input class="form-check-input" type="checkbox" value="vaccination" id="card_filter_vaccination" checked>
-					<label class="form-check-label" for="card_filter_vaccination">Hoje</label>
+					<label class="form-check-label" for="card_filter_vaccination">Última atualização</label>
 				</div>
 				<div class="form-check form-check-inline mb-0">
 					<input class="form-check-input" type="checkbox" value="vaccination" id="card_filter_vaccination" checked>
@@ -43,6 +43,10 @@
 					<input class="form-check-input" type="checkbox" value="tests" id="card_filter_tests">
 					<label class="form-check-label" for="card_filter_tests">Testes realizados</label>
 				</div>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="checkbox" value="uti" id="card_filter_uti">
+					<label class="form-check-label" for="card_filter_uti">Ocupação de leitos</label>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -69,6 +73,9 @@
 		@@include('../content/card_tests.html', {
 			"hidden": true
 		})
+		@@include('../content/card_uti.html', {
+			"hidden": true
+		})
 	</div>
 
 	<div class="rounded bg-white shadow-sm border border-dark mb-3 table-sticky overflow-auto table-responsive">
@@ -78,11 +85,11 @@
 					<th rowspan="3" style="min-width: 80px">Estado</th>
 					<th rowspan="3" style="min-width: 186px">Vacinas</th>
 					<th colspan="4" class="text-lg-center sorter-false border-start">Doses aplicadas</th>
-					<th rowspan="3" class="text-center border-start">
+					<th rowspan="3" class="sorter-dots text-center border-start">
 						<span class="d-block d-lg-none">Total</span>
 						<span class="d-none d-lg-block">Total de doses</span>
 					</th>
-					<th colspan="3" class="text-lg-center sorter-false border-start">Pessoas vacinadas</th>
+					<th colspan="2" class="text-lg-center sorter-false border-start">Pessoas vacinadas</th>
 				</tr>
 				<tr>
 					<th colspan="2" class="text-center border-start sorter-false">1ª</th>
@@ -91,10 +98,10 @@
 					<th rowspan="2" class="text-center border-end-0">2ª</th>
 				</tr>
 				<tr>
-					<th class="text-center border-start" style="min-width:86px">Total</th>
-					<th class="text-center border-end-0" style="min-width:146px">Novas</th>
-					<th class="text-center border-start" style="min-width:80px">Total</th>
-					<th class="text-center border-end-0" style="min-width:146px">Novas</th>
+					<th class="sorter-dots text-center border-start" style="min-width:86px">Total</th>
+					<th class="sorter-dots text-center border-end-0" style="min-width:146px">Novas</th>
+					<th class="sorter-dots text-center border-start" style="min-width:80px">Total</th>
+					<th class="sorter-dots text-center border-end-0" style="min-width:146px">Novas</th>
 				</tr>
 			</thead>
 			<tfoot class="table-dark">

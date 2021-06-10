@@ -6,6 +6,10 @@
 
 	<div id="card_switch" class="my-2">
 		<div class="form-check form-check-inline">
+			<input class="form-check-input" type="checkbox" value="uti" id="card_filter_uti" checked>
+			<label class="form-check-label" for="card_filter_uti">Ocupação de leitos</label>
+		</div>
+		<div class="form-check form-check-inline">
 			<input class="form-check-input" type="checkbox" value="cases" id="card_filter_cases" checked>
 			<label class="form-check-label" for="card_filter_cases">Casos</label>
 		</div>
@@ -18,7 +22,7 @@
 			<label class="form-check-label" for="card_filter_suspects">Suspeitos</label>
 		</div>
 		<div class="form-check form-check-inline">
-			<input class="form-check-input" type="checkbox" value="recovered" id="card_filter_recovered" checked>
+			<input class="form-check-input" type="checkbox" value="recovered" id="card_filter_recovered">
 			<label class="form-check-label" for="card_filter_recovered">Recuperados</label>
 		</div>
 		<div class="form-check form-check-inline">
@@ -32,6 +36,9 @@
 	</div>
 
 	<div id="card_list" class="row g-3 d-block d-lg-flex text-center">
+		@@include('../content/card_uti.html', {
+			"hidden": false
+		})
 		@@include('../content/card_cases.html', {
 			"hidden": false
 		})
@@ -39,7 +46,7 @@
 			"hidden": false
 		})
 		@@include('../content/card_suspects.html', {
-			"hidden": false
+			"hidden": true
 		})
 		@@include('../content/card_recovered.html', {
 			"hidden": true
@@ -62,8 +69,8 @@
 				<tr>
 					<th>Estado</th>
 					<th>Legenda</th>
-					<th>Leitos ocupados</th>
-					<th>Quantidade de leitos</th>
+					<th class="sorter-dots">Leitos ocupados</th>
+					<th class="sorter-dots">Quantidade de leitos</th>
 					<th>Ocupação</th>
 					<th>Última atualização</th>
 				</tr>

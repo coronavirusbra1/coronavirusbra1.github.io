@@ -24,6 +24,22 @@ moment.locale('pt-br');
 // Numeral
 numeral.locale('pt-br');
 
+// TableSorter
+$.tablesorter.addParser({
+    id: "dots",
+    is: function(s) {
+        return false;
+    },
+    format: function(s) {
+        console.log('original: '+s);
+        s = s.replaceAll(",", "")
+             .replaceAll(".", "")
+        console.log('replace: '+s);
+        return s;
+    },
+    type: "numeric"
+});     
+
 // Toasty
 // -- https://www.uplabs.com/posts/toasty-konami-code
 // -- UP, UP, DOWN, DOWN, LEFT, RIGHT, LEFT, RIGHT, B, A
@@ -101,13 +117,12 @@ $(function() {
 
                 c.find('.loading').addClass('d-none');
                 c.find('.card-body').removeClass('d-none');
-                c.find('.card-footer').removeClass('d-none');
 
-                c.find('.doses_total_1').html('<span class="fw-bold">1ª Dose:</span> <span class="fs-6 badge bg-info">'+numeral(data.total_vaccinations.doses_1).format('0,0')+'</span>');
-                c.find('.doses_percentage_1').html(data.total_vaccinations.percentage_doses_1+'% da população');
-                c.find('.doses_total_2').html('<span class="fw-bold">2ª Dose:</span> <span class="fs-6 badge bg-info">'+numeral(data.total_vaccinations.doses_2).format('0,0')+'</span>');
-                c.find('.doses_percentage_2').html(data.total_vaccinations.percentage_doses_2+'% da população');
-                c.find('.doses_total').html('<span class="fs-5 badge bg-info">'+numeral(data.total_vaccinations.total).format('0,0')+'</span>');
+                c.find('.doses_total_1').html(numeral(data.total_vaccinations.doses_1).format('0,0'));
+                c.find('.doses_percentage_1').html(data.total_vaccinations.percentage_doses_1);
+                c.find('.doses_total_2').html(numeral(data.total_vaccinations.doses_2).format('0,0'));
+                c.find('.doses_percentage_2').html(data.total_vaccinations.percentage_doses_2);
+                c.find('.doses_total').html(numeral(data.total_vaccinations.total).format('0,0'));
                 c.find('.last_update').html(moment(data.last_update).format('DD[/]MM[/]YY [às] HH[h]mm'));
 
                 if($('#card_daily_vaccination').length) {
@@ -115,16 +130,17 @@ $(function() {
 
                     d.find('.loading').addClass('d-none');
                     d.find('.card-body').removeClass('d-none');
-                    d.find('.card-footer').removeClass('d-none');
     
+                    var doses_total = data.daily_vaccinations.doses_1 + data.daily_vaccinations.doses_2;
+                    d.find('.doses_total_1').html(numeral(data.daily_vaccinations.doses_1).format('0,0'));
+                    d.find('.doses_total_2').html(numeral(data.daily_vaccinations.doses_2).format('0,0'));
+                    d.find('.doses_total').html(numeral(doses_total).format('0,0'));
+                    d.find('.last_update').html(moment(data.last_update).format('DD[/]MM[/]YY [às] HH[h]mm'));
+
                     if(moment(data.last_update).isSame(moment(), 'day')) {
-                        d.find('.doses_total_1').html('1ª Dose: '+numeral(data.daily_vaccinations.doses_1).format('0,0'));
-                        d.find('.doses_total_2').html('2ª Dose: '+numeral(data.daily_vaccinations.doses_2).format('0,0'));
-                        d.find('.last_update').html(moment(data.last_update).format('DD[/]MM[/]YY [às] HH[h]mm'));
+                        d.find('.daily').html('Hoje');
                     } else {
-                        d.find('.doses_total_1').html('1ª Dose: 0');
-                        d.find('.doses_total_2').html('2ª Dose: 0');
-                        d.find('.last_update').html(moment(data.last_update).format('DD[/]MM[/]YY [às] HH[h]mm'));
+                        d.find('.daily').html('Ontem');
                     }
                 }
             }
@@ -141,7 +157,6 @@ $(function() {
 
                 c.find('.loading').addClass('d-none');
                 c.find('.card-body').removeClass('d-none');
-                c.find('.card-footer').removeClass('d-none');
 
                 if(moment(data.date).isSame(moment(), 'day')) {
                     var compare_date = 'Hoje: ';
@@ -165,7 +180,6 @@ $(function() {
 
                 c.find('.loading').addClass('d-none');
                 c.find('.card-body').removeClass('d-none');
-                c.find('.card-footer').removeClass('d-none');
 
                 if(moment(data.date).isSame(moment(), 'day')) {
                     var compare_date = 'Hoje: ';
@@ -189,7 +203,6 @@ $(function() {
 
                 c.find('.loading').addClass('d-none');
                 c.find('.card-body').removeClass('d-none');
-                c.find('.card-footer').removeClass('d-none');
 
                 c.find('.total').html(numeral(data.total).format('0,0'));
                 c.find('.last_update').html(moment(data.last_update).format('DD[/]MM[/]YY [às] HH[h]mm'));
@@ -207,9 +220,27 @@ $(function() {
 
                 c.find('.loading').addClass('d-none');
                 c.find('.card-body').removeClass('d-none');
-                c.find('.card-footer').removeClass('d-none');
 
                 c.find('.total').html(numeral(data.total_suspects).format('0,0'));
+                c.find('.last_update').html(moment(data.last_update).format('DD[/]MM[/]YY [às] HH[h]mm'));
+            }
+        });
+    }
+    //-- UTI
+    if($('#card_uti').length) {
+        $.ajax({
+            url: endpoint+'/cards/uti.json',
+            cache: false,
+            method: 'GET',
+            success: function(data) {
+                var c = $('#card_uti');
+
+                c.find('.loading').addClass('d-none');
+                c.find('.card-body').removeClass('d-none');
+
+                c.find('.quantity').html(numeral(data.total_quantity).format('0,0'));
+                c.find('.occupied').html(numeral(data.total_occupied).format('0,0'));
+                c.find('.percentage').html(numeral(data.total_percentage).format('0,0')+'%');
                 c.find('.last_update').html(moment(data.last_update).format('DD[/]MM[/]YY [às] HH[h]mm'));
             }
         });
@@ -225,7 +256,6 @@ $(function() {
 
                 c.find('.loading').addClass('d-none');
                 c.find('.card-body').removeClass('d-none');
-                c.find('.card-footer').removeClass('d-none');
 
                 c.find('.total').html(numeral(data.total_tests).format('0,0'));
                 c.find('.last_update').html(moment(data.last_update).format('DD[/]MM[/]YY [às] HH[h]mm'));
@@ -331,8 +361,8 @@ $(function() {
                         '<td class="text-lg-center" data-hidden="doses">'+numeral(vaccinations_doses_1).format('0,0')+'</td>' +
                         '<td class="text-lg-center" data-hidden="doses">'+numeral(vaccinations_doses_2).format('0,0')+'</td>' +
                         '<td class="text-lg-center d-none" data-hidden="doses_total">'+numeral(vaccinations_total).format('0,0')+'</td>' +
-                        '<td class="text-lg-center" data-hidden="doses_percentage" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_1_percentage)+'">'+numeral(vaccinations_doses_1_percentage).format('0,0')+'%</td>' +
-                        '<td class="text-lg-center" data-hidden="doses_percentage" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_2_percentage)+'">'+numeral(vaccinations_doses_2_percentage).format('0,0')+'%</td>' +
+                        '<td class="text-lg-center" data-hidden="doses_percentage" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_1_percentage)+'">'+vaccinations_doses_1_percentage+'%</td>' +
+                        '<td class="text-lg-center" data-hidden="doses_percentage" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_2_percentage)+'">'+vaccinations_doses_2_percentage+'%</td>' +
                     '</tr>';
                     c.find('tbody').append(td);
                 });
@@ -357,7 +387,7 @@ $(function() {
                 c.tablesorter({
                     theme : 'bootstrap',
                     widgets : ['cssStickyHeaders'],
-                    usNumberFormat: false
+                    sortReset: true
                 });
 
                 $('#table_switch input[type=checkbox]').each(function () {
@@ -477,8 +507,8 @@ $(function() {
                         '</div>' +
                         '</td>' +
                         '<td class="align-middle text-lg-center">'+numeral(vaccinations_total).format('0,0')+'</td>' +
-                        '<td class="align-middle text-lg-center" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_1_percentage)+'">'+numeral(vaccinations_doses_1_percentage).format('0,0')+'%</td>' +
-                        '<td class="align-middle text-lg-center" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_2_percentage)+'">'+numeral(vaccinations_doses_2_percentage).format('0,0')+'%</td>' +
+                        '<td class="align-middle text-lg-center" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_1_percentage)+'">'+vaccinations_doses_1_percentage+'%</td>' +
+                        '<td class="align-middle text-lg-center" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_2_percentage)+'">'+vaccinations_doses_2_percentage+'%</td>' +
                     '</tr>';
                     c.find('tbody').append(td);
                 });
@@ -499,7 +529,7 @@ $(function() {
                 c.tablesorter({
                     theme : 'bootstrap',
                     widgets : ['cssStickyHeaders'],
-                    usNumberFormat: false
+                    sortReset: true
                 });
             }
         });
@@ -519,10 +549,9 @@ $(function() {
 
                 $.each(data, function (key, item) {
                     var label = item.label == null ? '-' : item.label;
-                    var quantity = item.quantity == null ? '-' : numeral(item.quantity).format('0,0');
-                    var occupied = item.occupied == null ? '-' : numeral(item.occupied).format('0,0');
-                    var percentage = item.percentage == null ? '' : numeral(item.percentage).format('0,0')+'%';
-                    var percentage_raw = item.percentage == null ? '' : chroma_style(['fff0f0', 'a60000'], item.percentage);
+                    var quantity = item.quantity == null ? '-' : item.quantity;
+                    var occupied = item.occupied == null ? '-' : item.occupied;
+                    var percentage = item.percentage == null ? '' : item.percentage;
                     var last_update = item.last_update == null ? '-' : item.last_update;
 
                     sum_quantity += item.quantity;
@@ -535,9 +564,9 @@ $(function() {
                             '<span class="d-none d-lg-inline-block ms-2">'+item.state+'</span>' +
                         '</td>' +
                         '<td>'+label+'</td>' +
-                        '<td>'+occupied+'</td>' +
-                        '<td>'+quantity+'</td>' +
-                        '<td class="text-center" style="'+percentage_raw+'">'+percentage+'</td>' +
+                        '<td>'+numeral(occupied).format('0,0')+'</td>' +
+                        '<td>'+numeral(quantity).format('0,0')+'</td>' +
+                        '<td class="align-middle text-lg-center" style="'+chroma_style(['fff0f0', 'a60000'], percentage)+'">'+percentage+'%</td>' +
                         '<td>'+moment(last_update).format('DD[/]MM[/]YY [às] HH[h]mm')+'</td>' +
                     '</tr>';
                     c.find('tbody').append(td);
@@ -556,7 +585,7 @@ $(function() {
                 c.tablesorter({
                     theme : 'bootstrap',
                     widgets : ['cssStickyHeaders'],
-                    usNumberFormat: false
+                    sortReset: true
                 });
             }
         });
