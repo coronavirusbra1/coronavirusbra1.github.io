@@ -103,10 +103,11 @@ $(function() {
                 c.find('.card-body').removeClass('d-none');
                 c.find('.card-footer').removeClass('d-none');
 
-                c.find('.doses_total_1').html('1ª Dose: <span class="fs-5 badge bg-info">'+numeral(data.total_vaccinations.doses_1).format('0,0')+'</span>');
+                c.find('.doses_total_1').html('<span class="fw-bold">1ª Dose:</span> <span class="fs-6 badge bg-info">'+numeral(data.total_vaccinations.doses_1).format('0,0')+'</span>');
                 c.find('.doses_percentage_1').html(data.total_vaccinations.percentage_doses_1+'% da população');
-                c.find('.doses_total_2').html('2ª Dose: <span class="fs-5 badge bg-info">'+numeral(data.total_vaccinations.doses_2).format('0,0')+'</span>');
+                c.find('.doses_total_2').html('<span class="fw-bold">2ª Dose:</span> <span class="fs-6 badge bg-info">'+numeral(data.total_vaccinations.doses_2).format('0,0')+'</span>');
                 c.find('.doses_percentage_2').html(data.total_vaccinations.percentage_doses_2+'% da população');
+                c.find('.doses_total').html('<span class="fs-5 badge bg-info">'+numeral(data.total_vaccinations.total).format('0,0')+'</span>');
                 c.find('.last_update').html(moment(data.last_update).format('DD[/]MM[/]YY [às] HH[h]mm'));
 
                 if($('#card_daily_vaccination').length) {
