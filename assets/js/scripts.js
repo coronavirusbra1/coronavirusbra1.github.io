@@ -31,10 +31,8 @@ $.tablesorter.addParser({
         return false;
     },
     format: function(s) {
-        console.log('original: '+s);
         s = s.replaceAll(",", "")
              .replaceAll(".", "")
-        console.log('replace: '+s);
         return s;
     },
     type: "numeric"
