@@ -1,12 +1,12 @@
 {
-	"name": "vacinacao-covid19",
+	"name": "coronavirusbra1",
 	"version": "1.0.0",
-	"description": "Vacinação Covid19",
+	"description": "CoronavirusBra1",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/altendorfme/vacinacao-covid19.git"
+		"url": "git+https://github.com/coronavirusbra1/coronavirusbra1.github.io.git"
 	},
-	"author": "Vacinação Covid19",
+	"author": "CoronavirusBra1",
 	"license": "MIT",
 	"dependencies": {
 		"autoprefixer": "^10.2.6",
