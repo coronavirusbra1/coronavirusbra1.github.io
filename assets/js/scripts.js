@@ -321,7 +321,7 @@ $(function() {
                     var vaccinations_doses_0_percentage = item.vaccinations.doses_0_percentage == null ? '0' : item.vaccinations.doses_0_percentage;
                     var vaccinations_doses_1_percentage = item.vaccinations.doses_1_percentage == null ? '0' : item.vaccinations.doses_1_percentage;
                     var vaccinations_doses_2_percentage = item.vaccinations.doses_2_percentage == null ? '0' : item.vaccinations.doses_2_percentage;
-                    var vaccinations_fully_vaccinated_percentage = item.vaccinations.fully_vaccinated_percentage == null ? '0' : item.vaccinations.fully_vaccinated_percentage;
+                    var vaccinations_fully_vaccinated_percentage = item.vaccinations.percentage_fully_vaccinated == null ? '0' : item.vaccinations.percentage_fully_vaccinated;
 
                     sum_cases_total += item.cases.total;
                     sum_cases_new += item.cases.new;
