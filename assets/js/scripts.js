@@ -471,9 +471,9 @@ $(function() {
                             var bg = 'sinovac-butantan';
                             var short = 'SN/BT';
                         }
-                        if(data == 'Johnson&Johnson') {
-                            var bg = 'johnson-johnson';
-                            var short = 'J&J';
+                        if(data == 'Janssen') {
+                            var bg = 'janssen';
+                            var short = 'JSN';
                         }
                         var vaccine_style = data.toLowerCase().replace(' ','-').replace('/','-').replace('&','-')
                         vaccines += '<span class="me-1 badge bg-'+vaccine_style+'" title="'+data+'">'+short+'</span>';
@@ -512,30 +512,32 @@ $(function() {
                         '<td class="align-middle">'+vaccines+'</td>' +
                         '<td class="align-middle text-lg-center">'+numeral(vaccinations_doses_1).format('0,0')+'</td>' +
                         '<td class="text-lg-center align-middle">' +
-                        '<div class="d-flex align-items-center">' +
-                        '<div class="w-50 text-end pe-2">'+numeral(daily_vaccinations_doses_1).format('0,0')+'</div>' +
-                        '<div class="w-50 progress"><div class="progress-bar bg-primary" role="progressbar" style="width: '+progress_doses_1+'%" aria-valuenow="'+progress_doses_1+'" aria-valuemin="0" aria-valuemax="100"></div></div>' +
+                            '<div class="d-flex align-items-center">' +
+                                '<div class="w-50 text-end pe-2">'+numeral(daily_vaccinations_doses_1).format('0,0')+'</div>' +
+                                '<div class="w-50 progress"><div class="progress-bar bg-primary" role="progressbar" style="width: '+progress_doses_1+'%" aria-valuenow="'+progress_doses_1+'" aria-valuemin="0" aria-valuemax="100"></div>' +
+                            '</div>' +
                         '</div>' +
                         '</td>' +
                         '<td class="align-middle text-lg-center">'+numeral(vaccinations_doses_2).format('0,0')+'</td>' +
                         '<td class="text-lg-center align-middle">' +
-                        '<div class="d-flex align-items-center">' +
-                        '<div class="w-50 text-end pe-2">'+numeral(daily_vaccinations_doses_2).format('0,0')+'</div>' +
-                        '<div class="w-50 progress"><div class="progress-bar bg-primary" role="progressbar" style="width: '+progress_doses_2+'%" aria-valuenow="'+progress_doses_2+'" aria-valuemin="0" aria-valuemax="100"></div></div>' +
-                        '</div>' +
+                            '<div class="d-flex align-items-center">' +
+                                '<div class="w-50 text-end pe-2">'+numeral(daily_vaccinations_doses_2).format('0,0')+'</div>' +
+                                    '<div class="w-50 progress"><div class="progress-bar bg-primary" role="progressbar" style="width: '+progress_doses_2+'%" aria-valuenow="'+progress_doses_2+'" aria-valuemin="0" aria-valuemax="100"></div>' +
+                                '</div>' +
+                            '</div>' +
                         '</td>' +
                         '<td class="align-middle text-lg-center">'+numeral(vaccinations_doses_0).format('0,0')+'</td>' +
                         '<td class="text-lg-center align-middle">' +
-                        '<div class="d-flex align-items-center">' +
-                        '<div class="w-50 text-end pe-2">'+numeral(daily_vaccinations_doses_0).format('0,0')+'</div>' +
-                        '<div class="w-50 progress"><div class="progress-bar bg-primary" role="progressbar" style="width: '+progress_doses_0+'%" aria-valuenow="'+progress_doses_0+'" aria-valuemin="0" aria-valuemax="100"></div></div>' +
-                        '</div>' +
+                            '<div class="d-flex align-items-center">' +
+                                '<div class="w-50 text-end pe-2">'+numeral(daily_vaccinations_doses_0).format('0,0')+'</div>' +
+                                '<div class="w-50 progress"><div class="progress-bar bg-primary" role="progressbar" style="width: '+progress_doses_0+'%" aria-valuenow="'+progress_doses_0+'" aria-valuemin="0" aria-valuemax="100"></div></div>' +
+                            '</div>' +
                         '</td>' +
                         '<td class="align-middle text-lg-center">'+numeral(vaccinations_total).format('0,0')+'</td>' +
                         '<td class="align-middle text-lg-center" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_doses_1_percentage)+'">'+vaccinations_doses_1_percentage+'%</td>' +
                         '<td class="align-middle text-lg-center" style="'+chroma_style(['cdf5ff', '00429d'], vaccinations_fully_vaccinated_percentage)+'">'+vaccinations_fully_vaccinated_percentage+'%</td>' +
                     '</tr>';
-                    c.find('tbody').append(td);
+                    c.find('tbody').append(td); 
                 });
 
                 var sum = '<tr>' +
