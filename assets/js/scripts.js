@@ -118,8 +118,8 @@ $(function() {
 
                 c.find('.doses_total_1').html(numeral(data.total_vaccinations.doses_1).format('0,0'));
                 c.find('.doses_percentage_1').html(data.total_vaccinations.percentage_doses_1);
-                c.find('.doses_total_2').html(numeral(data.total_vaccinations.doses_2).format('0,0'));
-                c.find('.doses_percentage_2').html(data.total_vaccinations.percentage_doses_2);
+                c.find('.doses_total_fully_vaccinated').html(numeral(data.total_vaccinations.fully_vaccinated).format('0,0'));
+                c.find('.doses_percentage_fully_vaccinated').html(data.total_vaccinations.percentage_fully_vaccinated);
                 c.find('.doses_total').html(numeral(data.total_vaccinations.total).format('0,0'));
                 c.find('.last_update').html(moment(data.last_update).format('DD[/]MM[/]YY [às] HH[h]mm'));
 
@@ -129,10 +129,10 @@ $(function() {
                     d.find('.loading').addClass('d-none');
                     d.find('.card-body').removeClass('d-none');
     
-                    var doses_total = data.daily_vaccinations.doses_1 + data.daily_vaccinations.doses_2 + data.daily_vaccinations_doses_0;
+                    d.find('.doses_total_0').html(numeral(data.daily_vaccinations.doses_0).format('0,0'));
                     d.find('.doses_total_1').html(numeral(data.daily_vaccinations.doses_1).format('0,0'));
                     d.find('.doses_total_2').html(numeral(data.daily_vaccinations.doses_2).format('0,0'));
-                    d.find('.doses_total').html(numeral(doses_total).format('0,0'));
+                    d.find('.doses_total').html(numeral(data.daily_vaccinations.total).format('0,0'));
                     d.find('.last_update').html(moment(data.last_update).format('DD[/]MM[/]YY [às] HH[h]mm'));
 
                     if(moment(data.last_update).isSame(moment(), 'day')) {
