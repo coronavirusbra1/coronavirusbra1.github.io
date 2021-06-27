@@ -129,6 +129,7 @@ $(function() {
                     d.find('.loading').addClass('d-none');
                     d.find('.card-body').removeClass('d-none');
     
+                    d.find('.doses_total_fully_vaccinated').html(numeral(data.daily_vaccinations.fully_vaccinated).format('0,0'));
                     d.find('.doses_total_0').html(numeral(data.daily_vaccinations.doses_0).format('0,0'));
                     d.find('.doses_total_1').html(numeral(data.daily_vaccinations.doses_1).format('0,0'));
                     d.find('.doses_total_2').html(numeral(data.daily_vaccinations.doses_2).format('0,0'));
