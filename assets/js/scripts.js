@@ -605,8 +605,8 @@ $(function() {
                 var sum = '<tr>' +
                     '<th></th>' +
                     '<th></th>' +
-                    '<th>'+numeral(sum_quantity).format('0,0')+'</th>' +
                     '<th>'+numeral(sum_occupied).format('0,0')+'</th>' +
+                    '<th>'+numeral(sum_quantity).format('0,0')+'</th>' +
                     '<th></th>' +
                     '<th></th>' +
                 '</tr>';
