@@ -464,17 +464,13 @@ $(function() {
                             var bg = 'sputnik-v';
                             var short = 'SPV';
                         }
-                        if(data == 'Covaxin') {
-                            var bg = 'covaxin';
-                            var short = 'COX';
+                        if( (data == 'Sinovac/Butantan') || (data == 'Sinovac') ) {
+                            var bg = 'sinovac';
+                            var short = 'SN';
                         }
-                        if(data == 'Sinovac/Butantan') {
-                            var bg = 'sinovac-butantan';
-                            var short = 'SN/BT';
-                        }
-                        if(data == 'Janssen') {
-                            var bg = 'janssen';
-                            var short = 'JSN';
+                        if( (data == 'Janssen') || (data == 'Johnson&Johnson') ) {
+                            var bg = 'johnson-johnson';
+                            var short = 'J&J';
                         }
                         var vaccine_style = data.toLowerCase().replace(' ','-').replace('/','-').replace('&','-')
                         vaccines += '<span class="me-1 badge bg-'+vaccine_style+'" title="'+data+'">'+short+'</span>';
