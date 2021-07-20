@@ -63,29 +63,6 @@ table {
     border-spacing: 0 !important;
     border-collapse: separate !important;
 }
-
-.bg {
-    &-pfizer-biontech {
-        background-color: #007cc2;
-    }
-    &-moderna {
-        background-color: #e51937;
-    }
-    &-oxford-astrazeneca {
-        background-color: #0f1f47;
-    }
-    &-sputnik-v {
-        background-color: #002b89;
-    }
-    &-sinovac,
-    &-sinovac-butantan {
-        background-color: #ed5b06;
-    }
-    &-johnson-johnson,
-    &-janssen {
-        background-color: #d51900;
-    }
-}
 .fs {
     &-7 {
         font-size: 0.85rem!important;

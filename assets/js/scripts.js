@@ -38,6 +38,13 @@ $.tablesorter.addParser({
     type: "numeric"
 });     
 
+function show_tooltip() {
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Popover(tooltipTriggerEl)
+    });
+}
+
 // Toasty
 // -- https://www.uplabs.com/posts/toasty-konami-code
 // -- UP, UP, DOWN, DOWN, LEFT, RIGHT, LEFT, RIGHT, B, A
@@ -446,35 +453,8 @@ $(function() {
                 });
 
                 $.each(data, function (key, item) {
-                    var vaccines = '';
-                    $.each(item.vaccines,function(i, data){
-                        if(data == 'Pfizer/BioNTech') {
-                            var bg = 'pfizer-biontech';
-                            var short = 'PZ/BI';
-                        }
-                        if(data == 'Moderna') {
-                            var bg = 'moderna';
-                            var short = 'MDN';
-                        }
-                        if(data == 'Oxford/AstraZeneca') {
-                            var bg = 'oxford-astrazeneca';
-                            var short = 'AZ';
-                        }
-                        if(data == 'Sputnik V') {
-                            var bg = 'sputnik-v';
-                            var short = 'SPV';
-                        }
-                        if( (data == 'Sinovac/Butantan') || (data == 'Sinovac') ) {
-                            var bg = 'sinovac';
-                            var short = 'SN';
-                        }
-                        if( (data == 'Janssen') || (data == 'Johnson&Johnson') ) {
-                            var bg = 'johnson-johnson';
-                            var short = 'J&J';
-                        }
-                        var vaccine_style = data.toLowerCase().replace(' ','-').replace('/','-').replace('&','-')
-                        vaccines += '<span class="me-1 badge bg-'+vaccine_style+'" title="'+data+'">'+short+'</span>';
-                    });
+                    var vaccines = item.vaccines.toString();
+                    var vaccines = vaccines.replaceAll(',','<br/>');
 
                     var vaccinations_doses_0 = item.total_vaccinations[0] == null ? '0' : item.total_vaccinations[0];
                     var daily_vaccinations_doses_0 = item.daily_vaccinations[0] == null ? '0' : item.daily_vaccinations[0];
@@ -505,8 +485,8 @@ $(function() {
                             '<img class="mx-auto mb-1 rounded border border-secondary" src="//cdn.jsdelivr.net/gh/bgeneto/bandeiras-br/imagens/'+item.iso_code.toUpperCase()+'.png" width="20" />' +
                             '<span class="d-inline-block d-lg-none ms-2">'+item.iso_code.toUpperCase()+'</span>' +
                             '<span class="d-none d-lg-inline-block ms-2">'+item.state+'</span>' +
+                            '<span role="button" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-html="true" data-bs-content="'+vaccines+'"><svg class="bi d-inline-block ms-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 512 512"><defs/><path d="M505.4 107.3L404.7 6.6C384.5-13.5 354 17 374.2 37.1l12.2 12.3-58.8 58.8-51-51C256.4 37 225.9 67.5 246 87.7l23.5 23.5-28.5 28.5 48.8 48.8c20.2 20.1-10.3 50.7-30.5 30.5l-48.8-48.8-17.3 17.3 48.8 48.8c20.2 20.1-10.3 50.7-30.5 30.5L162.8 218l-17.3 17.3 48.8 48.8c20.2 20.1-10.3 50.7-30.5 30.5L115 265.8l-43.7 43.7c-8.4 8.4-8.4 22.1 0 30.5l35 35.1L6.7 475C-13.5 495 17 525.6 37.1 505.4l99.8-99.8 35 35.1c8.5 8.4 22.2 8.4 30.6 0l198.3-198.3 23.5 23.5c20 20 51-10 30.5-30.5l-51-51 58.8-58.8 12.3 12.2c20.1 20.2 50.7-10.3 30.5-30.5zm-132.1 46.6l-15.2-15.2 58.8-58.8L432.1 95l-58.8 58.8z"/></svg></span>' +
                         '</td>' +
-                        '<td class="align-middle">'+vaccines+'</td>' +
                         '<td class="align-middle text-lg-center">'+numeral(vaccinations_doses_1).format('0,0')+'</td>' +
                         '<td class="text-lg-center align-middle">' +
                             '<div class="d-flex align-items-center">' +
@@ -539,7 +519,6 @@ $(function() {
 
                 var sum = '<tr>' +
                     '<th></th>' +
-                    '<th class="border-start"></th>' +
                     '<th class="text-lg-center border-start">'+numeral(sum_vaccinations_doses_1).format('0,0')+'</th>' +
                     '<th class="text-lg-center border-start">'+numeral(sum_daily_vaccinations_doses_1).format('0,0')+'</th>' +
                     '<th class="text-lg-center border-start">'+numeral(sum_vaccinations_doses_2).format('0,0')+'</th>' +
@@ -557,6 +536,8 @@ $(function() {
                     widgets : ['cssStickyHeaders'],
                     sortReset: true
                 });
+
+                show_tooltip();
             }
         });
     }
