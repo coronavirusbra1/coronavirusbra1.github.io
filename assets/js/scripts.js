@@ -268,6 +268,22 @@ $(function() {
             }
         });
     }
+    //-- Doses MS
+    if($('#card_doses_ms').length) {
+        $.ajax({
+            url: endpoint+'/cards/vacinacovidbr.json',
+            cache: false,
+            method: 'GET',
+            success: function(data) {
+                var c = $('#card_doses_ms');
+
+                c.find('.loading').addClass('d-none');
+                c.find('.card-body').removeClass('d-none');
+
+                c.find('.total').html(data.round);
+            }
+        });
+    }
 
     // Tables
     $('#table_switch input').on('change',function() {
