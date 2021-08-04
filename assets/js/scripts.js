@@ -281,6 +281,7 @@ $(function() {
                 c.find('.card-body').removeClass('d-none');
 
                 c.find('.total').html(data.round);
+                c.find('.updated').html(data.updated);
             }
         });
     }
