@@ -281,6 +281,8 @@ $(function() {
                 c.find('.card-body').removeClass('d-none');
 
                 c.find('.total').html(data.round);
+                var tweet = 'https://twitter.com/intent/tweet?text=O%20@minsaude%20tem%20'+data.round+'%20milh%C3%B5es%20doses%20armazenadas%20pendentes%20de%20distribui%C3%A7%C3%A3o%20aos%20estados!%20Para%20acelerar%20a%20vacina%C3%A7%C3%A3o,%20distribua%20as%20doses!&hashtags=distribuiMS&via=vacinacovidbr&url=https://apolinar.io/vacinas/quantasdoses/';
+                c.find('.tweet').attr('href',tweet);
                 c.find('.updated').html(data.updated);
             }
         });
