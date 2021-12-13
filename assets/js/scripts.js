@@ -81,7 +81,7 @@ function activate_toasty() {
 }
 
 $(function() {
-    var endpoint = 'https://api.vacinacao-covid19.com/coronavirusbra1';
+    var endpoint = 'https://vacinacao-covid19.altendorfme.com/api/coronavirusbra1';
 
     // Cards
     $('#card_switch input').on('change',function() {
