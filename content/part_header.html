@@ -14,7 +14,7 @@
 
 				<ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
 					<li>
-						<a href="/" class="nav-link @@if (page === 'index' || page === 'vacinacao' || page === 'ocupacao-de-leitos') { text-secondary disabled } @@if (page != 'index' && page != 'vacinacao' && page != 'ocupacao-de-leitos') { text-white } px-1 px-lg-2">
+						<a href="/" class="nav-link @@if (page === 'index' || page === 'vacinacao') { text-secondary disabled } @@if (page != 'index' && page != 'vacinacao' && page != 'ocupacao-de-leitos') { text-white } px-1 px-lg-2">
 							<svg class="bi d-block mx-auto mb-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
 								<path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
 								<path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
@@ -68,12 +68,6 @@
 				@@if (page === 'index' || page === 'vacinacao' || page === 'ocupacao-de-leitos') {
 				<li class="nav-item"><a href="/" class="nav-link @@if (page === 'index') { active }" aria-current="page">Geral</a></li>
 				<li class="nav-item"><a href="/vacinacao" class="nav-link @@if (page === 'vacinacao') { active }">Vacinação</a></li>
-				<li class="nav-item">
-					<a href="/ocupacao-de-leitos" class="nav-link @@if (page === 'ocupacao-de-leitos') { active }">
-						<span class="d-block d-lg-none">Leitos</span>
-						<span class="d-none d-lg-block">Ocupação de leitos</span>
-					</a>
-				</li>
 				}
 			
 				@@if (page === 'sobre') {

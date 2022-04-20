@@ -235,25 +235,6 @@ $(function() {
             }
         });
     }
-    //-- UTI
-    if($('#card_uti').length) {
-        $.ajax({
-            url: endpoint+'/cards/uti.json',
-            cache: false,
-            method: 'GET',
-            success: function(data) {
-                var c = $('#card_uti');
-
-                c.find('.loading').addClass('d-none');
-                c.find('.card-body').removeClass('d-none');
-
-                c.find('.quantity').html(numeral(data.total_quantity).format('0,0'));
-                c.find('.occupied').html(numeral(data.total_occupied).format('0,0'));
-                c.find('.percentage').html(numeral(data.total_percentage).format('0,0')+'%');
-                c.find('.last_update').html(moment(data.last_update).format('DD[/]MM[/]YY [às] HH[h]mm'));
-            }
-        });
-    }
     //-- Tests
     if($('#card_tests').length) {
         $.ajax({
@@ -592,62 +573,6 @@ $(function() {
                 });
 
                 show_tooltip();
-            }
-        });
-    }
-    //-- UTI
-    if($('#table_uti').length) {
-        $.ajax({
-            url: endpoint+'/tables/uti.json',
-            cache: false,
-            method: 'GET',
-            success: function(data) {
-                var c = $('#table_uti');
-                c.find('tbody').html('');
-                
-                var sum_quantity = 0;
-                var sum_occupied = 0;
-
-                $.each(data, function (key, item) {
-                    var label = item.label == null ? '-' : item.label;
-                    var quantity = item.quantity == null ? '-' : item.quantity;
-                    var occupied = item.occupied == null ? '-' : item.occupied;
-                    var percentage = item.percentage == null ? '' : item.percentage;
-                    var last_update = item.last_update == null ? '-' : item.last_update;
-
-                    sum_quantity += item.quantity;
-                    sum_occupied += item.occupied;
-
-                    var td = '<tr>' +
-                        '<td>' +
-                            '<img class="mx-auto mb-1 rounded border border-secondary" src="//cdn.jsdelivr.net/gh/bgeneto/bandeiras-br/imagens/'+item.iso_code.toUpperCase()+'.png" width="20" />' +
-                            '<span class="d-inline-block d-lg-none ms-2">'+item.iso_code.toUpperCase()+'</span>' +
-                            '<span class="d-none d-lg-inline-block ms-2">'+item.state+'</span>' +
-                        '</td>' +
-                        '<td>'+label+'</td>' +
-                        '<td>'+numeral(occupied).format('0,0')+'</td>' +
-                        '<td>'+numeral(quantity).format('0,0')+'</td>' +
-                        '<td class="align-middle text-lg-center" style="'+chroma_style(['fff0f0', 'a60000'], percentage)+'">'+percentage+'%</td>' +
-                        '<td>'+moment(last_update).format('DD[/]MM[/]YY [às] HH[h]mm')+'</td>' +
-                    '</tr>';
-                    c.find('tbody').append(td);
-                });
-
-                var sum = '<tr>' +
-                    '<th></th>' +
-                    '<th></th>' +
-                    '<th>'+numeral(sum_occupied).format('0,0')+'</th>' +
-                    '<th>'+numeral(sum_quantity).format('0,0')+'</th>' +
-                    '<th></th>' +
-                    '<th></th>' +
-                '</tr>';
-                c.find('tfoot').append(sum);
-
-                c.tablesorter({
-                    theme : 'bootstrap',
-                    widgets : ['cssStickyHeaders'],
-                    sortReset: true
-                });
             }
         });
     }
