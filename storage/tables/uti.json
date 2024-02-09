@@ -1,0 +1,353 @@
+[
+    {
+        "state": "Acre",
+        "iso_code": "ac",
+        "label": "UTI",
+        "quantity": 30,
+        "occupied": 3,
+        "percentage": 10,
+        "source": [
+            "http:\/\/covid19.ac.gov.br\/monitoramento\/leitos"
+        ],
+        "date": "2022-04-19",
+        "last_update": "2022-04-19 21:08:37"
+    },
+    {
+        "state": "Alagoas",
+        "iso_code": "al",
+        "label": "*\/UTI",
+        "quantity": 51,
+        "occupied": 11,
+        "percentage": 21.57,
+        "source": [
+            "https:\/\/dados.al.gov.br\/catalogo\/dataset\/painel-covid-19-em-alagoas\/resource\/72caf95e-f44e-4c8d-a155-ce50f0fce606"
+        ],
+        "date": "2022-04-19",
+        "last_update": "2022-04-19 21:08:37"
+    },
+    {
+        "state": "Amazonas",
+        "iso_code": "am",
+        "label": "*\/UTI",
+        "quantity": null,
+        "occupied": null,
+        "percentage": 6.4,
+        "source": [
+            "http:\/\/saude.am.gov.br\/painel\/corona\/"
+        ],
+        "date": "2022-04-19",
+        "last_update": "2022-04-19 21:08:37"
+    },
+    {
+        "state": "Amapá",
+        "iso_code": "ap",
+        "label": "***\/*",
+        "quantity": null,
+        "occupied": null,
+        "percentage": 7.8,
+        "source": [
+            "https:\/\/www.portal.ap.gov.br\/noticia\/0803\/boletim-informativo-covid-19-amapa-8-de-marco-de-2022"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Bahia",
+        "iso_code": "ba",
+        "label": "UTI",
+        "quantity": 538,
+        "occupied": 117,
+        "percentage": 21.75,
+        "source": [
+            "https:\/\/bi.saude.ba.gov.br\/transparencia\/"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Ceará",
+        "iso_code": "ce",
+        "label": "UTI",
+        "quantity": null,
+        "occupied": null,
+        "percentage": 7.76,
+        "source": [
+            "https:\/\/indicadores.integrasus.saude.ce.gov.br\/#\/indicadores\/indicadores-coronavirus\/historico-internacoes-covid"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Distrito Federal",
+        "iso_code": "df",
+        "label": "UTI\/*",
+        "quantity": 83,
+        "occupied": 45,
+        "percentage": 54.22,
+        "source": [
+            "https:\/\/info.saude.df.gov.br\/covid-resumo-executivo\/"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Espírito Santo",
+        "iso_code": "es",
+        "label": "UTI\/*",
+        "quantity": 333,
+        "occupied": 196,
+        "percentage": 58.86,
+        "source": [
+            "https:\/\/coronavirus.es.gov.br\/painel-ocupacao-de-leitos-hospitalares"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Goiás",
+        "iso_code": "go",
+        "label": "UTI\/*\/**",
+        "quantity": 197,
+        "occupied": 75,
+        "percentage": 38.07,
+        "source": [
+            "https:\/\/datasets.saude.go.gov.br\/docs\/coronavirus\/boletim\/boletim.pdf"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Maranhão",
+        "iso_code": "ma",
+        "label": "UTI\/*",
+        "quantity": 146,
+        "occupied": 33,
+        "percentage": 22.6,
+        "source": [
+            "https:\/\/www.saude.ma.gov.br\/boletins-covid-19\/"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Minas Gerais",
+        "iso_code": "mg",
+        "label": "*\/UTI",
+        "quantity": 3581,
+        "occupied": 1992,
+        "percentage": 55.63,
+        "source": [
+            "https:\/\/www.saude.mg.gov.br\/coronavirus\/painel"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Mato Grosso do Sul",
+        "iso_code": "ms",
+        "label": "*\/UTI",
+        "quantity": 223,
+        "occupied": 57,
+        "percentage": 25.56,
+        "source": [
+            "https:\/\/www.vs.saude.ms.gov.br\/boletim-coronavirus-covid-19-influenza-64\/"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Mato Grosso",
+        "iso_code": "mt",
+        "label": "UTI",
+        "quantity": 236,
+        "occupied": 64,
+        "percentage": 27.12,
+        "source": [
+            "http:\/\/www.saude.mt.gov.br\/painelcovidmt2\/"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Pará",
+        "iso_code": "pa",
+        "label": "UTI\/*\/**",
+        "quantity": 174,
+        "occupied": 45,
+        "percentage": 25.86,
+        "source": [
+            "https:\/\/www.covid-19.pa.gov.br\/#\/"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Paraíba",
+        "iso_code": "pb",
+        "label": "*\/UTI",
+        "quantity": null,
+        "occupied": null,
+        "percentage": 13,
+        "source": [
+            "https:\/\/www.instagram.com\/p\/CbYd5Axr4eh\/"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Pernambuco",
+        "iso_code": "pe",
+        "label": "*\/UTI",
+        "quantity": 1004,
+        "occupied": 432,
+        "percentage": 43.03,
+        "source": [
+            "https:\/\/dados.seplag.pe.gov.br\/apps\/corona.html"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Piauí",
+        "iso_code": "pi",
+        "label": "UTI",
+        "quantity": 113,
+        "occupied": 34,
+        "percentage": 30.09,
+        "source": [
+            "https:\/\/datastudio.google.com\/u\/0\/reporting\/a6dc07e9-4161-4b5a-9f2a-6f9be486e8f9\/page\/2itOB"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Paraná",
+        "iso_code": "pr",
+        "label": "*\/**\/ UTI",
+        "quantity": 583,
+        "occupied": 232,
+        "percentage": 39.79,
+        "source": [
+            "http:\/\/www.saude.pr.gov.br\/Pagina\/Coronavirus-COVID-19"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Rio de Janeiro",
+        "iso_code": "rj",
+        "label": "UTI\/**",
+        "quantity": null,
+        "occupied": null,
+        "percentage": 22.3,
+        "source": [
+            "https:\/\/painel.saude.rj.gov.br\/monitoramento\/covid19.html#"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Rio Grande do Norte",
+        "iso_code": "rn",
+        "label": "**",
+        "quantity": 130,
+        "occupied": 32,
+        "percentage": 24.62,
+        "source": [
+            "https:\/\/regulacao.saude.rn.gov.br\/sala-situacao\/sala_publica\/"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Rondônia",
+        "iso_code": "ro",
+        "label": null,
+        "quantity": null,
+        "occupied": null,
+        "percentage": 64.34,
+        "source": [
+            "https:\/\/www.portalrondonia.com\/2022\/03\/04\/ao-publicar-novo-ato-conjunto-tjro-avanca-na-retomada-de-atendimentos-presenciais\/"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Roraima",
+        "iso_code": "rr",
+        "label": "UTI\/**",
+        "quantity": 27,
+        "occupied": 7,
+        "percentage": 25.93,
+        "source": [
+            "https:\/\/folhabv.com.br\/noticia\/SAUDE\/Saude\/Roraima-tem-34-internados-com-Covid-19\/84810"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Rio Grande do Sul",
+        "iso_code": "rs",
+        "label": "UTI",
+        "quantity": 2788,
+        "occupied": 1732,
+        "percentage": 62.12,
+        "source": [
+            "https:\/\/covid.saude.rs.gov.br\/"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Santa Catarina",
+        "iso_code": "sc",
+        "label": "**\/UTI",
+        "quantity": 1164,
+        "occupied": 942,
+        "percentage": 80.93,
+        "source": [
+            "https:\/\/app.powerbi.com\/view?r=eyJrIjoiMTgwN2I4NTEtM2RhYi00OTYzLWJiMmYtOTRmNjBmZmM4Y2NjIiwidCI6ImExN2QwM2ZjLTRiYWMtNGI2OC1iZDY4LWUzOTYzYTJlYzRlNiJ9"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Sergipe",
+        "iso_code": "se",
+        "label": "*UTI",
+        "quantity": 57,
+        "occupied": 31,
+        "percentage": 54.39,
+        "source": [
+            "https:\/\/todoscontraocorona.net.br\/"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "São Paulo",
+        "iso_code": "sp",
+        "label": "UTI",
+        "quantity": 3286,
+        "occupied": 826,
+        "percentage": 25.14,
+        "source": [
+            "https:\/\/www.seade.gov.br\/coronavirus\/"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    },
+    {
+        "state": "Tocantins",
+        "iso_code": "to",
+        "label": "*\/**\/UTI",
+        "quantity": 90,
+        "occupied": 14,
+        "percentage": 15.56,
+        "source": [
+            "http:\/\/integra.saude.to.gov.br\/covid19\/TaxaOcupacaoLeitosUtiCovid"
+        ],
+        "date": "2022-03-22",
+        "last_update": "2022-03-22 10:11:35"
+    }
+]

@@ -1,0 +1,25 @@
+{
+    "date": "2024-02-08",
+    "last_update": "2024-02-09 02:59:05",
+    "total_vaccinations": {
+        "doses_0": 5761701,
+        "percentage_doses_0": 2.7,
+        "doses_1": 184458186,
+        "percentage_doses_1": 86.47,
+        "doses_2": 171052333,
+        "percentage_doses_2": 80.19,
+        "doses_3": 132698661,
+        "percentage_doses_3": 62.21,
+        "fully_vaccinated": 176814034,
+        "percentage_fully_vaccinated": 82.89,
+        "total": 493970881
+    },
+    "daily_vaccinations": {
+        "doses_0": 0,
+        "doses_1": 0,
+        "doses_2": 0,
+        "doses_3": 0,
+        "fully_vaccinated": 0,
+        "total": 0
+    }
+}

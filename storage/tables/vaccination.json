@@ -1,0 +1,1460 @@
+[
+    {
+        "state": "Acre",
+        "iso_code": "ac",
+        "total_vaccinations": {
+            "0": 13806,
+            "percentage_doses_0": 1.52,
+            "1": 705740,
+            "percentage_doses_1": 77.82,
+            "2": 621108,
+            "percentage_doses_2": 68.49,
+            "3": 470249,
+            "percentage_doses_3": 51.85,
+            "fully_vaccinated": 634914,
+            "percentage_fully_vaccinated": 70.01,
+            "total": 1810903
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 201640,
+            "per_million": 222346
+        },
+        "average_14days": {
+            "0": 1972,
+            "1": 100820,
+            "2": 88730,
+            "3": 67178,
+            "total": 258700,
+            "per_million": 285265
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:03",
+        "people_vaccinated_per_hundred": 77,
+        "people_fully_vaccinated_per_hundred": 70,
+        "total_vaccinations_per_hundred": 199,
+        "source_name": "Governo do estado do Acre",
+        "source_website": "http:\/\/covid19.ac.gov.br\/vacina\/vacinas_aplicadas"
+    },
+    {
+        "state": "Alagoas",
+        "iso_code": "al",
+        "total_vaccinations": {
+            "0": 58151,
+            "percentage_doses_0": 1.73,
+            "1": 2617483,
+            "percentage_doses_1": 77.78,
+            "2": 2271143,
+            "percentage_doses_2": 67.49,
+            "3": 1453763,
+            "percentage_doses_3": 43.2,
+            "fully_vaccinated": 2329294,
+            "percentage_fully_vaccinated": 69.21,
+            "total": 6400540
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 747852,
+            "per_million": 222221
+        },
+        "average_14days": {
+            "0": 8307,
+            "1": 373926,
+            "2": 324449,
+            "3": 207680,
+            "total": 914363,
+            "per_million": 271699
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:03",
+        "people_vaccinated_per_hundred": 77,
+        "people_fully_vaccinated_per_hundred": 69,
+        "total_vaccinations_per_hundred": 190,
+        "source_name": "Governo do estado de Alagoas",
+        "source_website": "https:\/\/www.saude.al.gov.br\/noticias\/"
+    },
+    {
+        "state": "Amazonas",
+        "iso_code": "am",
+        "total_vaccinations": {
+            "0": 84223,
+            "percentage_doses_0": 1.97,
+            "1": 3464954,
+            "percentage_doses_1": 81.15,
+            "2": 3014893,
+            "percentage_doses_2": 70.61,
+            "3": 2746042,
+            "percentage_doses_3": 64.31,
+            "fully_vaccinated": 3099116,
+            "percentage_fully_vaccinated": 72.58,
+            "total": 9310112
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 989987,
+            "per_million": 231847
+        },
+        "average_14days": {
+            "0": 12032,
+            "1": 494993,
+            "2": 430699,
+            "3": 392292,
+            "total": 1330016,
+            "per_million": 311480
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:03",
+        "people_vaccinated_per_hundred": 81,
+        "people_fully_vaccinated_per_hundred": 72,
+        "total_vaccinations_per_hundred": 218,
+        "source_name": "Governo do estado do Amazonas",
+        "source_website": "https:\/\/www.fvs.am.gov.br\/indicadorSalaSituacao_view\/75\/2"
+    },
+    {
+        "state": "Amapá",
+        "iso_code": "ap",
+        "total_vaccinations": {
+            "0": 17200,
+            "percentage_doses_0": 1.96,
+            "1": 653227,
+            "percentage_doses_1": 74.43,
+            "2": 565273,
+            "percentage_doses_2": 64.41,
+            "3": 477896,
+            "percentage_doses_3": 54.45,
+            "fully_vaccinated": 582473,
+            "percentage_fully_vaccinated": 66.37,
+            "total": 1713596
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 186636,
+            "per_million": 212663
+        },
+        "average_14days": {
+            "0": 2457,
+            "1": 93318,
+            "2": 80753,
+            "3": 68271,
+            "total": 244799,
+            "per_million": 278937
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:03",
+        "people_vaccinated_per_hundred": 74,
+        "people_fully_vaccinated_per_hundred": 66,
+        "total_vaccinations_per_hundred": 195,
+        "source_name": "Governo do estado do Amapá",
+        "source_website": "http:\/\/dashboard.corona.ap.gov.br\/s\/covid-19\/app\/kibana#\/dashboard\/8c64dd30-ddbd-11eb-bc0d-ddd366494f76"
+    },
+    {
+        "state": "Bahia",
+        "iso_code": "ba",
+        "total_vaccinations": {
+            "0": 284439,
+            "percentage_doses_0": 1.9,
+            "1": 11681006,
+            "percentage_doses_1": 77.95,
+            "2": 10568359,
+            "percentage_doses_2": 70.52,
+            "3": 8038266,
+            "percentage_doses_3": 53.64,
+            "fully_vaccinated": 10852798,
+            "percentage_fully_vaccinated": 72.42,
+            "total": 30572070
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 3337430,
+            "per_million": 222714
+        },
+        "average_14days": {
+            "0": 40634,
+            "1": 1668715,
+            "2": 1509766,
+            "3": 1148324,
+            "total": 4367439,
+            "per_million": 291449
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:03",
+        "people_vaccinated_per_hundred": 77,
+        "people_fully_vaccinated_per_hundred": 72,
+        "total_vaccinations_per_hundred": 204,
+        "source_name": "Governo do estado da Bahia",
+        "source_website": "https:\/\/bi.saude.ba.gov.br\/vacinacao\/"
+    },
+    {
+        "state": "Ceará",
+        "iso_code": "ce",
+        "total_vaccinations": {
+            "0": 285113,
+            "percentage_doses_0": 3.09,
+            "1": 8672260,
+            "percentage_doses_1": 93.85,
+            "2": 7840719,
+            "percentage_doses_2": 84.85,
+            "3": 5620091,
+            "percentage_doses_3": 60.82,
+            "fully_vaccinated": 8125832,
+            "percentage_fully_vaccinated": 87.94,
+            "total": 22418183
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 2477789,
+            "per_million": 268142
+        },
+        "average_14days": {
+            "0": 40730,
+            "1": 1238894,
+            "2": 1120103,
+            "3": 802870,
+            "total": 3202598,
+            "per_million": 346580
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:03",
+        "people_vaccinated_per_hundred": 93,
+        "people_fully_vaccinated_per_hundred": 87,
+        "total_vaccinations_per_hundred": 242,
+        "source_name": "Governo do estado do Ceará",
+        "source_website": "https:\/\/www.saude.ce.gov.br\/vacinometro\/"
+    },
+    {
+        "state": "Distrito Federal",
+        "iso_code": "df",
+        "total_vaccinations": {
+            "0": 350014,
+            "percentage_doses_0": 11.31,
+            "1": 2801934,
+            "percentage_doses_1": 90.55,
+            "2": 2426080,
+            "percentage_doses_2": 78.4,
+            "3": 1859780,
+            "percentage_doses_3": 60.1,
+            "fully_vaccinated": 2776094,
+            "percentage_fully_vaccinated": 89.72,
+            "total": 7437808
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 800553,
+            "per_million": 258717
+        },
+        "average_14days": {
+            "0": 50002,
+            "1": 400276,
+            "2": 346583,
+            "3": 265683,
+            "total": 1062544,
+            "per_million": 343385
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:03",
+        "people_vaccinated_per_hundred": 90,
+        "people_fully_vaccinated_per_hundred": 89,
+        "total_vaccinations_per_hundred": 240,
+        "source_name": "Governo do Distrito Federal",
+        "source_website": "http:\/\/info.saude.df.gov.br\/relatorio-de-vacinacao-covid-19\/"
+    },
+    {
+        "state": "Espírito Santo",
+        "iso_code": "es",
+        "total_vaccinations": {
+            "0": 126919,
+            "percentage_doses_0": 3.09,
+            "1": 3521986,
+            "percentage_doses_1": 85.72,
+            "2": 3180319,
+            "percentage_doses_2": 77.41,
+            "3": 2257968,
+            "percentage_doses_3": 54.96,
+            "fully_vaccinated": 3307238,
+            "percentage_fully_vaccinated": 80.5,
+            "total": 9087192
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 1006282,
+            "per_million": 244926
+        },
+        "average_14days": {
+            "0": 18131,
+            "1": 503141,
+            "2": 454331,
+            "3": 322567,
+            "total": 1298170,
+            "per_million": 315971
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:03",
+        "people_vaccinated_per_hundred": 85,
+        "people_fully_vaccinated_per_hundred": 80,
+        "total_vaccinations_per_hundred": 221,
+        "source_name": "Governo do estado do Espírito Santo",
+        "source_website": "https:\/\/app.powerbi.com\/view?r=eyJrIjoiMWUwODgyNmYtNzQ3Ni00NTlmLThhZTUtNWJhNjc4YzllOTRjIiwidCI6IjhiMjA4ZmViLTIyMTYtNDQ1Zi1iZmQxLTk1MjU4ZDlkMjExMSJ9"
+    },
+    {
+        "state": "Goiás",
+        "iso_code": "go",
+        "total_vaccinations": {
+            "0": 166348,
+            "percentage_doses_0": 2.31,
+            "1": 6003998,
+            "percentage_doses_1": 83.31,
+            "2": 5483952,
+            "percentage_doses_2": 76.1,
+            "3": 4844346,
+            "percentage_doses_3": 67.22,
+            "fully_vaccinated": 5650300,
+            "percentage_fully_vaccinated": 78.4,
+            "total": 16498644
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 1715428,
+            "per_million": 238036
+        },
+        "average_14days": {
+            "0": 23764,
+            "1": 857714,
+            "2": 783422,
+            "3": 692049,
+            "total": 2356949,
+            "per_million": 327055
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:03",
+        "people_vaccinated_per_hundred": 83,
+        "people_fully_vaccinated_per_hundred": 78,
+        "total_vaccinations_per_hundred": 228,
+        "source_name": "Governo do estado do Goiás",
+        "source_website": "http:\/\/covid19.saude.go.gov.br\/"
+    },
+    {
+        "state": "Maranhão",
+        "iso_code": "ma",
+        "total_vaccinations": {
+            "0": 129264,
+            "percentage_doses_0": 1.81,
+            "1": 5746153,
+            "percentage_doses_1": 80.33,
+            "2": 4676875,
+            "percentage_doses_2": 65.38,
+            "3": 2366308,
+            "percentage_doses_3": 33.08,
+            "fully_vaccinated": 4806139,
+            "percentage_fully_vaccinated": 67.19,
+            "total": 12918600
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 1641758,
+            "per_million": 229512
+        },
+        "average_14days": {
+            "0": 18466,
+            "1": 820879,
+            "2": 668125,
+            "3": 338044,
+            "total": 1845514,
+            "per_million": 257996
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:03",
+        "people_vaccinated_per_hundred": 80,
+        "people_fully_vaccinated_per_hundred": 67,
+        "total_vaccinations_per_hundred": 180,
+        "source_name": "Governo do estado do Maranhão",
+        "source_website": "https:\/\/painel-covid19.saude.ma.gov.br\/vacinas"
+    },
+    {
+        "state": "Minas Gerais",
+        "iso_code": "mg",
+        "total_vaccinations": {
+            "0": 527060,
+            "percentage_doses_0": 2.46,
+            "1": 18624826,
+            "percentage_doses_1": 86.98,
+            "2": 18075830,
+            "percentage_doses_2": 84.42,
+            "3": 19206727,
+            "percentage_doses_3": 89.7,
+            "fully_vaccinated": 18602890,
+            "percentage_fully_vaccinated": 86.88,
+            "total": 56434443
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 5321379,
+            "per_million": 248524
+        },
+        "average_14days": {
+            "0": 75294,
+            "1": 2660689,
+            "2": 2582261,
+            "3": 2743818,
+            "total": 8062063,
+            "per_million": 376522
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:03",
+        "people_vaccinated_per_hundred": 86,
+        "people_fully_vaccinated_per_hundred": 86,
+        "total_vaccinations_per_hundred": 263,
+        "source_name": "Governo do estado de Minas Gerais",
+        "source_website": "https:\/\/coronavirus.saude.mg.gov.br\/vacinometro"
+    },
+    {
+        "state": "Mato Grosso do Sul",
+        "iso_code": "ms",
+        "total_vaccinations": {
+            "0": 258398,
+            "percentage_doses_0": 9.1,
+            "1": 2262254,
+            "percentage_doses_1": 79.68,
+            "2": 1964502,
+            "percentage_doses_2": 69.19,
+            "3": 1363828,
+            "percentage_doses_3": 48.04,
+            "fully_vaccinated": 2222900,
+            "percentage_fully_vaccinated": 78.29,
+            "total": 5848982
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 646358,
+            "per_million": 227656
+        },
+        "average_14days": {
+            "0": 36914,
+            "1": 323179,
+            "2": 280643,
+            "3": 194833,
+            "total": 835569,
+            "per_million": 294299
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:04",
+        "people_vaccinated_per_hundred": 79,
+        "people_fully_vaccinated_per_hundred": 78,
+        "total_vaccinations_per_hundred": 206,
+        "source_name": "Governo do estado de Mato Grosso do Sul",
+        "source_website": "https:\/\/mais.saude.ms.gov.br:444\/single\/?appid=8718ed21-ed36-4995-8a7d-1072da241959&sheet=8cad7a0a-ba50-4760-a72b-f25fa7164022&theme=card&opt=currsel%2Cctxmenu"
+    },
+    {
+        "state": "Mato Grosso",
+        "iso_code": "mt",
+        "total_vaccinations": {
+            "0": 104986,
+            "percentage_doses_0": 2.94,
+            "1": 2879763,
+            "percentage_doses_1": 80.73,
+            "2": 2587727,
+            "percentage_doses_2": 72.54,
+            "3": 1772836,
+            "percentage_doses_3": 49.7,
+            "fully_vaccinated": 2692713,
+            "percentage_fully_vaccinated": 75.48,
+            "total": 7345312
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 822789,
+            "per_million": 230652
+        },
+        "average_14days": {
+            "0": 14998,
+            "1": 411395,
+            "2": 369675,
+            "3": 253262,
+            "total": 1049330,
+            "per_million": 294158
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:04",
+        "people_vaccinated_per_hundred": 80,
+        "people_fully_vaccinated_per_hundred": 75,
+        "total_vaccinations_per_hundred": 205,
+        "source_name": "Governo do estado do Mato Grosso",
+        "source_website": "https:\/\/qsprod.saude.gov.br\/extensions\/DEMAS_C19Vacina\/DEMAS_C19Vacina.html"
+    },
+    {
+        "state": "Pará",
+        "iso_code": "pa",
+        "total_vaccinations": {
+            "0": 149148,
+            "percentage_doses_0": 1.7,
+            "1": 6869551,
+            "percentage_doses_1": 78.27,
+            "2": 6490998,
+            "percentage_doses_2": 73.95,
+            "3": 2492989,
+            "percentage_doses_3": 28.4,
+            "fully_vaccinated": 6640146,
+            "percentage_fully_vaccinated": 75.65,
+            "total": 16002686
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 1962729,
+            "per_million": 223619
+        },
+        "average_14days": {
+            "0": 21307,
+            "1": 981364,
+            "2": 927285,
+            "3": 356141,
+            "total": 2286098,
+            "per_million": 260461
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:04",
+        "people_vaccinated_per_hundred": 78,
+        "people_fully_vaccinated_per_hundred": 75,
+        "total_vaccinations_per_hundred": 182,
+        "source_name": "Governo do estado do Pará",
+        "source_website": "https:\/\/app.powerbi.com\/view?r=eyJrIjoiODM3ZDdkODUtYTRlZS00Yzg0LWJjMmYtODM0MzA3MTk0ZWFmIiwidCI6IjM5ODc5NDY2LWJmODctNGExMy1hMjNiLThmYzIzMjg0MjQ2MiJ9&pageName=ReportSection"
+    },
+    {
+        "state": "Paraíba",
+        "iso_code": "pb",
+        "total_vaccinations": {
+            "0": 87270,
+            "percentage_doses_0": 2.15,
+            "1": 3552667,
+            "percentage_doses_1": 87.51,
+            "2": 3312766,
+            "percentage_doses_2": 81.6,
+            "3": 2317672,
+            "percentage_doses_3": 57.09,
+            "fully_vaccinated": 3400036,
+            "percentage_fully_vaccinated": 83.75,
+            "total": 9270375
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 1015048,
+            "per_million": 250018
+        },
+        "average_14days": {
+            "0": 12467,
+            "1": 507524,
+            "2": 473252,
+            "3": 331096,
+            "total": 1324339,
+            "per_million": 326200
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:04",
+        "people_vaccinated_per_hundred": 87,
+        "people_fully_vaccinated_per_hundred": 83,
+        "total_vaccinations_per_hundred": 228,
+        "source_name": "Governo do estado da Paraíba",
+        "source_website": "https:\/\/app.powerbi.com\/view?r=eyJrIjoiMmMwMjAyYjgtYjA4MC00NDRiLWI2NjgtMDQ1MjUxYjQ2NDY1IiwidCI6IjEzYTNlMDVmLTM3YzktNDgwZi04MjliLWQzMTlkMmRkMWFjYiJ9"
+    },
+    {
+        "state": "Pernambuco",
+        "iso_code": "pe",
+        "total_vaccinations": {
+            "0": 201914,
+            "percentage_doses_0": 2.09,
+            "1": 8606375,
+            "percentage_doses_1": 88.96,
+            "2": 7909450,
+            "percentage_doses_2": 81.75,
+            "3": 5530086,
+            "percentage_doses_3": 57.16,
+            "fully_vaccinated": 8111364,
+            "percentage_fully_vaccinated": 83.84,
+            "total": 22247825
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 2458964,
+            "per_million": 254162
+        },
+        "average_14days": {
+            "0": 28845,
+            "1": 1229482,
+            "2": 1129921,
+            "3": 790012,
+            "total": 3178261,
+            "per_million": 328509
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:04",
+        "people_vaccinated_per_hundred": 88,
+        "people_fully_vaccinated_per_hundred": 83,
+        "total_vaccinations_per_hundred": 229,
+        "source_name": "Governo do estado de Pernambuco",
+        "source_website": "https:\/\/app.powerbi.com\/view?r=eyJrIjoiNmI1NDcyYTUtYTlhMS00ZWFlLWE4MTYtOGQzM2RkMzgyOTAxIiwidCI6ImQ1ZTU0MGZmLTkzNzAtNGNhMi04YmVmLWQwMzcyMWQxM2MwNSJ9&pageName=ReportSectiondc8ac2b66d0753222000"
+    },
+    {
+        "state": "Piauí",
+        "iso_code": "pi",
+        "total_vaccinations": {
+            "0": 56560,
+            "percentage_doses_0": 1.72,
+            "1": 3163444,
+            "percentage_doses_1": 96.17,
+            "2": 2838164,
+            "percentage_doses_2": 86.29,
+            "3": 2477991,
+            "percentage_doses_3": 75.34,
+            "fully_vaccinated": 2894724,
+            "percentage_fully_vaccinated": 88,
+            "total": 8536159
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 903841,
+            "per_million": 274783
+        },
+        "average_14days": {
+            "0": 8080,
+            "1": 451921,
+            "2": 405452,
+            "3": 353999,
+            "total": 1219451,
+            "per_million": 370734
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:04",
+        "people_vaccinated_per_hundred": 96,
+        "people_fully_vaccinated_per_hundred": 88,
+        "total_vaccinations_per_hundred": 259,
+        "source_name": "Governo do estado do Piauí",
+        "source_website": "https:\/\/datastudio.google.com\/reporting\/a6dc07e9-4161-4b5a-9f2a-6f9be486e8f9\/page\/p_xg0ja6cdrc"
+    },
+    {
+        "state": "Paraná",
+        "iso_code": "pr",
+        "total_vaccinations": {
+            "0": 340240,
+            "percentage_doses_0": 2.93,
+            "1": 10310315,
+            "percentage_doses_1": 88.9,
+            "2": 9993206,
+            "percentage_doses_2": 86.17,
+            "3": 8469998,
+            "percentage_doses_3": 73.03,
+            "fully_vaccinated": 10333446,
+            "percentage_fully_vaccinated": 89.1,
+            "total": 29113759
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 2945804,
+            "per_million": 254004
+        },
+        "average_14days": {
+            "0": 48606,
+            "1": 1472902,
+            "2": 1427601,
+            "3": 1210000,
+            "total": 4159108,
+            "per_million": 358622
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:04",
+        "people_vaccinated_per_hundred": 88,
+        "people_fully_vaccinated_per_hundred": 89,
+        "total_vaccinations_per_hundred": 251,
+        "source_name": "Governo do estado do Paraná",
+        "source_website": "https:\/\/www.saude.pr.gov.br\/"
+    },
+    {
+        "state": "Rio de Janeiro",
+        "iso_code": "rj",
+        "total_vaccinations": {
+            "0": 404779,
+            "percentage_doses_0": 2.32,
+            "1": 14731038,
+            "percentage_doses_1": 84.35,
+            "2": 13824345,
+            "percentage_doses_2": 79.16,
+            "3": 12281428,
+            "percentage_doses_3": 70.33,
+            "fully_vaccinated": 14229124,
+            "percentage_fully_vaccinated": 81.48,
+            "total": 41241590
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 4208868,
+            "per_million": 241012
+        },
+        "average_14days": {
+            "0": 57826,
+            "1": 2104434,
+            "2": 1974906,
+            "3": 1754490,
+            "total": 5891656,
+            "per_million": 337373
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:04",
+        "people_vaccinated_per_hundred": 84,
+        "people_fully_vaccinated_per_hundred": 81,
+        "total_vaccinations_per_hundred": 236,
+        "source_name": "Governo do estado do Rio de Janeiro",
+        "source_website": "https:\/\/vacinacaocovid19.saude.rj.gov.br\/vacinometro"
+    },
+    {
+        "state": "Rio Grande do Norte",
+        "iso_code": "rn",
+        "total_vaccinations": {
+            "0": 69006,
+            "percentage_doses_0": 1.94,
+            "1": 2981036,
+            "percentage_doses_1": 83.72,
+            "2": 2772139,
+            "percentage_doses_2": 77.85,
+            "3": 2030138,
+            "percentage_doses_3": 57.01,
+            "fully_vaccinated": 2841145,
+            "percentage_fully_vaccinated": 79.79,
+            "total": 7852319
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 851725,
+            "per_million": 239188
+        },
+        "average_14days": {
+            "0": 9858,
+            "1": 425862,
+            "2": 396020,
+            "3": 290020,
+            "total": 1121760,
+            "per_million": 315021
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:04",
+        "people_vaccinated_per_hundred": 83,
+        "people_fully_vaccinated_per_hundred": 79,
+        "total_vaccinations_per_hundred": 220,
+        "source_name": "Universidade Federal do Rio Grande do Norte - UFRN",
+        "source_website": "https:\/\/rnmaisvacina.lais.ufrn.br\/cidadao\/covid\/#infor-gerais"
+    },
+    {
+        "state": "Rondônia",
+        "iso_code": "ro",
+        "total_vaccinations": {
+            "0": 38090,
+            "percentage_doses_0": 2.1,
+            "1": 1329679,
+            "percentage_doses_1": 73.25,
+            "2": 1187968,
+            "percentage_doses_2": 65.44,
+            "3": 700162,
+            "percentage_doses_3": 38.57,
+            "fully_vaccinated": 1226058,
+            "percentage_fully_vaccinated": 67.54,
+            "total": 3255899
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 379908,
+            "per_million": 209284
+        },
+        "average_14days": {
+            "0": 5441,
+            "1": 189954,
+            "2": 169710,
+            "3": 100023,
+            "total": 465128,
+            "per_million": 256230
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:04",
+        "people_vaccinated_per_hundred": 73,
+        "people_fully_vaccinated_per_hundred": 67,
+        "total_vaccinations_per_hundred": 179,
+        "source_name": "Governo do estado de Rondônia",
+        "source_website": "https:\/\/covid19.sesau.ro.gov.br\/painel-vacinas"
+    },
+    {
+        "state": "Roraima",
+        "iso_code": "rr",
+        "total_vaccinations": {
+            "0": 14749,
+            "percentage_doses_0": 2.26,
+            "1": 475484,
+            "percentage_doses_1": 72.85,
+            "2": 370414,
+            "percentage_doses_2": 56.75,
+            "3": 177931,
+            "percentage_doses_3": 27.26,
+            "fully_vaccinated": 385163,
+            "percentage_fully_vaccinated": 59.01,
+            "total": 1038578
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 135853,
+            "per_million": 208136
+        },
+        "average_14days": {
+            "0": 2107,
+            "1": 67926,
+            "2": 52916,
+            "3": 25419,
+            "total": 148368,
+            "per_million": 227310
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:04",
+        "people_vaccinated_per_hundred": 72,
+        "people_fully_vaccinated_per_hundred": 59,
+        "total_vaccinations_per_hundred": 159,
+        "source_name": "Governo do estado de Roraima",
+        "source_website": "https:\/\/saude.rr.gov.br\/vacinometro\/"
+    },
+    {
+        "state": "Rio Grande do Sul",
+        "iso_code": "rs",
+        "total_vaccinations": {
+            "0": 331099,
+            "percentage_doses_0": 2.89,
+            "1": 9882801,
+            "percentage_doses_1": 86.19,
+            "2": 9439922,
+            "percentage_doses_2": 82.33,
+            "3": 8457997,
+            "percentage_doses_3": 73.76,
+            "fully_vaccinated": 9771021,
+            "percentage_fully_vaccinated": 85.21,
+            "total": 28111819
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 2823657,
+            "per_million": 246250
+        },
+        "average_14days": {
+            "0": 47300,
+            "1": 1411829,
+            "2": 1348560,
+            "3": 1208285,
+            "total": 4015974,
+            "per_million": 350231
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:04",
+        "people_vaccinated_per_hundred": 86,
+        "people_fully_vaccinated_per_hundred": 85,
+        "total_vaccinations_per_hundred": 245,
+        "source_name": "Governo do estado do Rio Grande do Sul",
+        "source_website": "https:\/\/vacina.saude.rs.gov.br\/"
+    },
+    {
+        "state": "Santa Catarina",
+        "iso_code": "sc",
+        "total_vaccinations": {
+            "0": 277356,
+            "percentage_doses_0": 3.78,
+            "1": 6311336,
+            "percentage_doses_1": 86,
+            "2": 5866110,
+            "percentage_doses_2": 79.94,
+            "3": 4178799,
+            "percentage_doses_3": 56.94,
+            "fully_vaccinated": 6143466,
+            "percentage_fully_vaccinated": 83.72,
+            "total": 16633601
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 1803239,
+            "per_million": 245724
+        },
+        "average_14days": {
+            "0": 39622,
+            "1": 901619,
+            "2": 838016,
+            "3": 596971,
+            "total": 2376229,
+            "per_million": 323804
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:04",
+        "people_vaccinated_per_hundred": 86,
+        "people_fully_vaccinated_per_hundred": 83,
+        "total_vaccinations_per_hundred": 226,
+        "source_name": "Governo do estado de Santa Catarina",
+        "source_website": "https:\/\/app.powerbi.com\/view?r=eyJrIjoiOTM2Y2Y1M2QtMjcxNC00ZGRmLTk0NzEtZjIyNWQxOTQ2MWIxIiwidCI6ImExN2QwM2ZjLTRiYWMtNGI2OC1iZDY4LWUzOTYzYTJlYzRlNiJ9"
+    },
+    {
+        "state": "Sergipe",
+        "iso_code": "se",
+        "total_vaccinations": {
+            "0": 43065,
+            "percentage_doses_0": 1.84,
+            "1": 2023048,
+            "percentage_doses_1": 86.51,
+            "2": 1860868,
+            "percentage_doses_2": 79.58,
+            "3": 1376006,
+            "percentage_doses_3": 58.84,
+            "fully_vaccinated": 1903933,
+            "percentage_fully_vaccinated": 81.42,
+            "total": 5302987
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 578014,
+            "per_million": 247176
+        },
+        "average_14days": {
+            "0": 6152,
+            "1": 289007,
+            "2": 265838,
+            "3": 196572,
+            "total": 757570,
+            "per_million": 323959
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:04",
+        "people_vaccinated_per_hundred": 86,
+        "people_fully_vaccinated_per_hundred": 81,
+        "total_vaccinations_per_hundred": 226,
+        "source_name": "Governo do estado de Sergipe",
+        "source_website": "https:\/\/todoscontraocorona.net.br\/inicial-vacinas\/"
+    },
+    {
+        "state": "São Paulo",
+        "iso_code": "sp",
+        "total_vaccinations": {
+            "0": 1286285,
+            "percentage_doses_0": 2.76,
+            "1": 43400622,
+            "percentage_doses_1": 93.04,
+            "2": 40877748,
+            "percentage_doses_2": 87.63,
+            "3": 29130858,
+            "percentage_doses_3": 62.45,
+            "fully_vaccinated": 42164033,
+            "percentage_fully_vaccinated": 90.39,
+            "total": 114695513
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 12400178,
+            "per_million": 265818
+        },
+        "average_14days": {
+            "0": 183755,
+            "1": 6200089,
+            "2": 5839678,
+            "3": 4161551,
+            "total": 16385073,
+            "per_million": 351241
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:05",
+        "people_vaccinated_per_hundred": 93,
+        "people_fully_vaccinated_per_hundred": 90,
+        "total_vaccinations_per_hundred": 245,
+        "source_name": "Governo do estado de São Paulo",
+        "source_website": "https:\/\/vacinaja.sp.gov.br\/"
+    },
+    {
+        "state": "Tocantins",
+        "iso_code": "to",
+        "total_vaccinations": {
+            "0": 56219,
+            "percentage_doses_0": 3.5,
+            "1": 1185206,
+            "percentage_doses_1": 73.74,
+            "2": 1031455,
+            "percentage_doses_2": 64.17,
+            "3": 598506,
+            "percentage_doses_3": 37.24,
+            "fully_vaccinated": 1087674,
+            "percentage_fully_vaccinated": 67.67,
+            "total": 2871386
+        },
+        "daily_vaccinations": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "fully_vaccinated": 0,
+            "total": null
+        },
+        "average_7days": {
+            "0": null,
+            "1": null,
+            "2": null,
+            "3": null,
+            "total": 338630,
+            "per_million": 210674
+        },
+        "average_14days": {
+            "0": 8031,
+            "1": 169315,
+            "2": 147351,
+            "3": 85501,
+            "total": 410198,
+            "per_million": 255199
+        },
+        "vaccines": [
+            "Sinovac",
+            "Oxford\/AstraZeneca",
+            "Pfizer\/BioNTech",
+            "Johnson&Johnson"
+        ],
+        "last_update_date": "2024-02-08",
+        "last_update": "2024-02-09 02:59:05",
+        "people_vaccinated_per_hundred": 73,
+        "people_fully_vaccinated_per_hundred": 67,
+        "total_vaccinations_per_hundred": 178,
+        "source_name": "Governo do estado de Tocantins",
+        "source_website": "http:\/\/integra.saude.to.gov.br\/covid19\/Vacinometro"
+    }
+]

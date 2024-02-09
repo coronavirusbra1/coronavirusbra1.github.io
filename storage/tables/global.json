@@ -1,0 +1,1217 @@
+[
+    {
+        "state": "Acre",
+        "iso_code": "ac",
+        "cases": {
+            "total": 160452,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 2043,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 119470,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 359276,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:24:18"
+        },
+        "suspects": {
+            "total": 48179,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:24:18"
+        },
+        "vaccinations": {
+            "doses_0": 13801,
+            "doses_0_percentage": 1.52,
+            "doses_1": 701557,
+            "doses_1_percentage": 77.36,
+            "doses_2": 616861,
+            "doses_2_percentage": 68.02,
+            "doses_3": 448692,
+            "doses_3_percentage": 49.48,
+            "fully_vaccinated": 630662,
+            "percentage_fully_vaccinated": 69.54,
+            "total": 1780911,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Alagoas",
+        "iso_code": "al",
+        "cases": {
+            "total": 337568,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 7242,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 286515,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 376415,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:31:05"
+        },
+        "suspects": {
+            "total": 871,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:31:05"
+        },
+        "vaccinations": {
+            "doses_0": 58151,
+            "doses_0_percentage": 1.73,
+            "doses_1": 2617483,
+            "doses_1_percentage": 77.78,
+            "doses_2": 2271143,
+            "doses_2_percentage": 67.49,
+            "doses_3": 1453763,
+            "doses_3_percentage": 43.2,
+            "fully_vaccinated": 2329294,
+            "percentage_fully_vaccinated": 69.21,
+            "total": 6400540,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Amazonas",
+        "iso_code": "am",
+        "cases": {
+            "total": 631976,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 14443,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 559537,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 1797477,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:31:05"
+        },
+        "suspects": {
+            "total": 3123,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:31:05"
+        },
+        "vaccinations": {
+            "doses_0": 84223,
+            "doses_0_percentage": 1.97,
+            "doses_1": 3417159,
+            "doses_1_percentage": 80.03,
+            "doses_2": 2951760,
+            "doses_2_percentage": 69.13,
+            "doses_3": 2471738,
+            "doses_3_percentage": 57.89,
+            "fully_vaccinated": 3035983,
+            "percentage_fully_vaccinated": 71.1,
+            "total": 8924880,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Amapá",
+        "iso_code": "ap",
+        "cases": {
+            "total": 185673,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 2167,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 126023,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 370849,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:31:05"
+        },
+        "suspects": {
+            "total": 42,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:31:05"
+        },
+        "vaccinations": {
+            "doses_0": 17200,
+            "doses_0_percentage": 1.96,
+            "doses_1": 639906,
+            "doses_1_percentage": 72.91,
+            "doses_2": 548954,
+            "doses_2_percentage": 62.55,
+            "doses_3": 424023,
+            "doses_3_percentage": 48.32,
+            "fully_vaccinated": 566154,
+            "percentage_fully_vaccinated": 64.51,
+            "total": 1630083,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Bahia",
+        "iso_code": "ba",
+        "cases": {
+            "total": 1792572,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 31459,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 1484295,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 3755755,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:37:47"
+        },
+        "suspects": {
+            "total": 358935,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:37:47"
+        },
+        "vaccinations": {
+            "doses_0": 284439,
+            "doses_0_percentage": 1.9,
+            "doses_1": 11681006,
+            "doses_1_percentage": 77.95,
+            "doses_2": 10568359,
+            "doses_2_percentage": 70.52,
+            "doses_3": 8038266,
+            "doses_3_percentage": 53.64,
+            "fully_vaccinated": 10852798,
+            "percentage_fully_vaccinated": 72.42,
+            "total": 30572070,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Ceará",
+        "iso_code": "ce",
+        "cases": {
+            "total": 1453417,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 28157,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 1110838,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 4253993,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:48:48"
+        },
+        "suspects": {
+            "total": 16642,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:48:48"
+        },
+        "vaccinations": {
+            "doses_0": 285113,
+            "doses_0_percentage": 3.09,
+            "doses_1": 8672260,
+            "doses_1_percentage": 93.85,
+            "doses_2": 7840719,
+            "doses_2_percentage": 84.85,
+            "doses_3": 5620091,
+            "doses_3_percentage": 60.82,
+            "fully_vaccinated": 8125832,
+            "percentage_fully_vaccinated": 87.94,
+            "total": 22418183,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Distrito Federal",
+        "iso_code": "df",
+        "cases": {
+            "total": 898072,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 11845,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 672192,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 782118,
+            "date": "2022-01-27",
+            "last_update": "2022-01-27 21:47:22"
+        },
+        "suspects": {
+            "total": 663,
+            "date": "2022-01-27",
+            "last_update": "2022-01-27 21:47:22"
+        },
+        "vaccinations": {
+            "doses_0": 350014,
+            "doses_0_percentage": 11.31,
+            "doses_1": 2801934,
+            "doses_1_percentage": 90.55,
+            "doses_2": 2426080,
+            "doses_2_percentage": 78.4,
+            "doses_3": 1859780,
+            "doses_3_percentage": 60.1,
+            "fully_vaccinated": 2776094,
+            "percentage_fully_vaccinated": 89.72,
+            "total": 7437808,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Espírito Santo",
+        "iso_code": "es",
+        "cases": {
+            "total": 1323595,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 15041,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 961369,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 4334490,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:48:48"
+        },
+        "suspects": {
+            "total": 386456,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:48:48"
+        },
+        "vaccinations": {
+            "doses_0": 126919,
+            "doses_0_percentage": 3.09,
+            "doses_1": 3504149,
+            "doses_1_percentage": 85.29,
+            "doses_2": 3157226,
+            "doses_2_percentage": 76.85,
+            "doses_3": 2257968,
+            "doses_3_percentage": 54.96,
+            "fully_vaccinated": 3284145,
+            "percentage_fully_vaccinated": 79.94,
+            "total": 9046262,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Goiás",
+        "iso_code": "go",
+        "cases": {
+            "total": 1900459,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 28041,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 1176485,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 2099112,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:51:43"
+        },
+        "suspects": {
+            "total": 867571,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:51:43"
+        },
+        "vaccinations": {
+            "doses_0": 166329,
+            "doses_0_percentage": 2.31,
+            "doses_1": 5980372,
+            "doses_1_percentage": 82.98,
+            "doses_2": 5456123,
+            "doses_2_percentage": 75.71,
+            "doses_3": 4698412,
+            "doses_3_percentage": 65.2,
+            "fully_vaccinated": 5622452,
+            "percentage_fully_vaccinated": 78.02,
+            "total": 16301236,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Maranhão",
+        "iso_code": "ma",
+        "cases": {
+            "total": 493418,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 11053,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 402551,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 1212804,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:52:06"
+        },
+        "suspects": {
+            "total": 548,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:52:06"
+        },
+        "vaccinations": {
+            "doses_0": 129264,
+            "doses_0_percentage": 1.81,
+            "doses_1": 5746153,
+            "doses_1_percentage": 80.33,
+            "doses_2": 4676875,
+            "doses_2_percentage": 65.38,
+            "doses_3": 2366308,
+            "doses_3_percentage": 33.08,
+            "fully_vaccinated": 4806139,
+            "percentage_fully_vaccinated": 67.19,
+            "total": 12918600,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Minas Gerais",
+        "iso_code": "mg",
+        "cases": {
+            "total": 4189760,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 65507,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 3112513,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 9391509,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:58:29"
+        },
+        "suspects": {
+            "total": 6540804,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 00:58:29"
+        },
+        "vaccinations": {
+            "doses_0": 527005,
+            "doses_0_percentage": 2.46,
+            "doses_1": 18533225,
+            "doses_1_percentage": 86.56,
+            "doses_2": 17972929,
+            "doses_2_percentage": 83.94,
+            "doses_3": 18503509,
+            "doses_3_percentage": 86.42,
+            "fully_vaccinated": 18499934,
+            "percentage_fully_vaccinated": 86.4,
+            "total": 55536668,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Mato Grosso do Sul",
+        "iso_code": "ms",
+        "cases": {
+            "total": 607776,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 11016,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 496655,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 1689479,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:03:10"
+        },
+        "suspects": {
+            "total": 233,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:03:10"
+        },
+        "vaccinations": {
+            "doses_0": 258398,
+            "doses_0_percentage": 9.1,
+            "doses_1": 2262254,
+            "doses_1_percentage": 79.68,
+            "doses_2": 1964502,
+            "doses_2_percentage": 69.19,
+            "doses_3": 1363828,
+            "doses_3_percentage": 48.04,
+            "fully_vaccinated": 2222900,
+            "percentage_fully_vaccinated": 78.29,
+            "total": 5848982,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Mato Grosso",
+        "iso_code": "mt",
+        "cases": {
+            "total": 879415,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 15090,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 715724,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 557142,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:03:10"
+        },
+        "suspects": {
+            "total": 84318,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:03:10"
+        },
+        "vaccinations": {
+            "doses_0": 104791,
+            "doses_0_percentage": 2.94,
+            "doses_1": 2868925,
+            "doses_1_percentage": 80.42,
+            "doses_2": 2574203,
+            "doses_2_percentage": 72.16,
+            "doses_3": 1538105,
+            "doses_3_percentage": 43.12,
+            "fully_vaccinated": 2678994,
+            "percentage_fully_vaccinated": 75.1,
+            "total": 7086024,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Pará",
+        "iso_code": "pa",
+        "cases": {
+            "total": 872068,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 19025,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 693000,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 1008782,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:03:10"
+        },
+        "suspects": {
+            "total": 5,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:03:10"
+        },
+        "vaccinations": {
+            "doses_0": 149148,
+            "doses_0_percentage": 1.7,
+            "doses_1": 6869551,
+            "doses_1_percentage": 78.27,
+            "doses_2": 6490998,
+            "doses_2_percentage": 73.95,
+            "doses_3": 2492989,
+            "doses_3_percentage": 28.4,
+            "fully_vaccinated": 6640146,
+            "percentage_fully_vaccinated": 75.65,
+            "total": 16002686,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Paraíba",
+        "iso_code": "pb",
+        "cases": {
+            "total": 707854,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 10542,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 429753,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 1391963,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:07:20"
+        },
+        "suspects": {
+            "total": 432554,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:07:20"
+        },
+        "vaccinations": {
+            "doses_0": 87270,
+            "doses_0_percentage": 2.15,
+            "doses_1": 3552667,
+            "doses_1_percentage": 87.51,
+            "doses_2": 3312766,
+            "doses_2_percentage": 81.6,
+            "doses_3": 2317672,
+            "doses_3_percentage": 57.09,
+            "fully_vaccinated": 3400036,
+            "percentage_fully_vaccinated": 83.75,
+            "total": 9270375,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Pernambuco",
+        "iso_code": "pe",
+        "cases": {
+            "total": 1157160,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 22687,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 699477,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 4742125,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:07:20"
+        },
+        "suspects": {
+            "total": 2386,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:07:20"
+        },
+        "vaccinations": {
+            "doses_0": 201914,
+            "doses_0_percentage": 2.09,
+            "doses_1": 8606375,
+            "doses_1_percentage": 88.96,
+            "doses_2": 7909450,
+            "doses_2_percentage": 81.75,
+            "doses_3": 5530086,
+            "doses_3_percentage": 57.16,
+            "fully_vaccinated": 8111364,
+            "percentage_fully_vaccinated": 83.84,
+            "total": 22247825,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Piauí",
+        "iso_code": "pi",
+        "cases": {
+            "total": 424866,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 8354,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 358596,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 718706,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:07:20"
+        },
+        "suspects": {
+            "total": 566,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:07:20"
+        },
+        "vaccinations": {
+            "doses_0": 56560,
+            "doses_0_percentage": 1.72,
+            "doses_1": 3163444,
+            "doses_1_percentage": 96.17,
+            "doses_2": 2838164,
+            "doses_2_percentage": 86.29,
+            "doses_3": 2477991,
+            "doses_3_percentage": 75.34,
+            "fully_vaccinated": 2894724,
+            "percentage_fully_vaccinated": 88,
+            "total": 8536159,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Paraná",
+        "iso_code": "pr",
+        "cases": {
+            "total": 2920177,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 46022,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 1938499,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 4991418,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:13:21"
+        },
+        "suspects": {
+            "total": 3348,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:13:21"
+        },
+        "vaccinations": {
+            "doses_0": 340240,
+            "doses_0_percentage": 2.93,
+            "doses_1": 10310315,
+            "doses_1_percentage": 88.9,
+            "doses_2": 9993206,
+            "doses_2_percentage": 86.17,
+            "doses_3": 8469998,
+            "doses_3_percentage": 73.03,
+            "fully_vaccinated": 10333446,
+            "percentage_fully_vaccinated": 89.1,
+            "total": 29113759,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Rio de Janeiro",
+        "iso_code": "rj",
+        "cases": {
+            "total": 2754359,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 76852,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 1948731,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 2313502,
+            "date": "2021-07-07",
+            "last_update": "2021-07-07 01:09:12"
+        },
+        "suspects": {
+            "total": 52017,
+            "date": "2021-07-07",
+            "last_update": "2021-07-07 01:09:12"
+        },
+        "vaccinations": {
+            "doses_0": 404779,
+            "doses_0_percentage": 2.32,
+            "doses_1": 14731038,
+            "doses_1_percentage": 84.35,
+            "doses_2": 13824345,
+            "doses_2_percentage": 79.16,
+            "doses_3": 12281428,
+            "doses_3_percentage": 70.33,
+            "fully_vaccinated": 14229124,
+            "percentage_fully_vaccinated": 81.48,
+            "total": 41241590,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Rio Grande do Norte",
+        "iso_code": "rn",
+        "cases": {
+            "total": 585935,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 8715,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 379975,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 1742372,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:13:21"
+        },
+        "suspects": {
+            "total": 219319,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:13:21"
+        },
+        "vaccinations": {
+            "doses_0": 69006,
+            "doses_0_percentage": 1.94,
+            "doses_1": 2981036,
+            "doses_1_percentage": 83.72,
+            "doses_2": 2772139,
+            "doses_2_percentage": 77.85,
+            "doses_3": 2030138,
+            "doses_3_percentage": 57.01,
+            "fully_vaccinated": 2841145,
+            "percentage_fully_vaccinated": 79.79,
+            "total": 7852319,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Rondônia",
+        "iso_code": "ro",
+        "cases": {
+            "total": 482910,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 7432,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 358683,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 1342582,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:13:21"
+        },
+        "suspects": {
+            "total": 394865,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:13:21"
+        },
+        "vaccinations": {
+            "doses_0": 38090,
+            "doses_0_percentage": 2.1,
+            "doses_1": 1329679,
+            "doses_1_percentage": 73.25,
+            "doses_2": 1187968,
+            "doses_2_percentage": 65.44,
+            "doses_3": 700162,
+            "doses_3_percentage": 38.57,
+            "fully_vaccinated": 1226058,
+            "percentage_fully_vaccinated": 67.54,
+            "total": 3255899,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Roraima",
+        "iso_code": "rr",
+        "cases": {
+            "total": 182505,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 2180,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 151889,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 459892,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:15:28"
+        },
+        "suspects": {
+            "total": 5095,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:15:28"
+        },
+        "vaccinations": {
+            "doses_0": 14749,
+            "doses_0_percentage": 2.26,
+            "doses_1": 475484,
+            "doses_1_percentage": 72.85,
+            "doses_2": 370414,
+            "doses_2_percentage": 56.75,
+            "doses_3": 177931,
+            "doses_3_percentage": 27.26,
+            "fully_vaccinated": 385163,
+            "percentage_fully_vaccinated": 59.01,
+            "total": 1038578,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Rio Grande do Sul",
+        "iso_code": "rs",
+        "cases": {
+            "total": 2962414,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 41921,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 2146461,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 9845794,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:15:28"
+        },
+        "suspects": {
+            "total": 10647,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:15:28"
+        },
+        "vaccinations": {
+            "doses_0": 331099,
+            "doses_0_percentage": 2.89,
+            "doses_1": 9882801,
+            "doses_1_percentage": 86.19,
+            "doses_2": 9439922,
+            "doses_2_percentage": 82.33,
+            "doses_3": 8457997,
+            "doses_3_percentage": 73.76,
+            "fully_vaccinated": 9771021,
+            "percentage_fully_vaccinated": 85.21,
+            "total": 28111819,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Santa Catarina",
+        "iso_code": "sc",
+        "cases": {
+            "total": 1986447,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 22703,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 1607144,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 3123102,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:28:09"
+        },
+        "suspects": {
+            "total": 205,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:28:09"
+        },
+        "vaccinations": {
+            "doses_0": 277356,
+            "doses_0_percentage": 3.78,
+            "doses_1": 6311336,
+            "doses_1_percentage": 86,
+            "doses_2": 5866110,
+            "doses_2_percentage": 79.94,
+            "doses_3": 4178799,
+            "doses_3_percentage": 56.94,
+            "fully_vaccinated": 6143466,
+            "percentage_fully_vaccinated": 83.72,
+            "total": 16633601,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Sergipe",
+        "iso_code": "se",
+        "cases": {
+            "total": 359692,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 6502,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 313577,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 603206,
+            "date": "2022-01-21",
+            "last_update": "2022-01-21 13:33:35"
+        },
+        "suspects": {
+            "total": 445,
+            "date": "2022-01-21",
+            "last_update": "2022-01-21 13:33:35"
+        },
+        "vaccinations": {
+            "doses_0": 43065,
+            "doses_0_percentage": 1.84,
+            "doses_1": 2023048,
+            "doses_1_percentage": 86.51,
+            "doses_2": 1860868,
+            "doses_2_percentage": 79.58,
+            "doses_3": 1376006,
+            "doses_3_percentage": 58.84,
+            "fully_vaccinated": 1903933,
+            "percentage_fully_vaccinated": 81.42,
+            "total": 5302987,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "São Paulo",
+        "iso_code": "sp",
+        "cases": {
+            "total": 6469442,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 179039,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 4850000,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 28158715,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:28:09"
+        },
+        "suspects": {
+            "total": 876238,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:28:09"
+        },
+        "vaccinations": {
+            "doses_0": 1286285,
+            "doses_0_percentage": 2.76,
+            "doses_1": 43400622,
+            "doses_1_percentage": 93.04,
+            "doses_2": 40877748,
+            "doses_2_percentage": 87.63,
+            "doses_3": 29130858,
+            "doses_3_percentage": 62.45,
+            "fully_vaccinated": 42164033,
+            "percentage_fully_vaccinated": 90.39,
+            "total": 114695513,
+            "last_update": "2023-07-30"
+        }
+    },
+    {
+        "state": "Tocantins",
+        "iso_code": "to",
+        "cases": {
+            "total": 365538,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "deaths": {
+            "total": 4232,
+            "new": null,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "recovered": {
+            "total": 281464,
+            "date": "2023-03-18",
+            "last_update": "2023-03-31 12:43:45"
+        },
+        "tests": {
+            "total": 797224,
+            "date": "2022-01-27",
+            "last_update": "2022-01-27 22:18:24"
+        },
+        "suspects": {
+            "total": 359,
+            "date": "2022-11-18",
+            "last_update": "2022-11-18 01:28:09"
+        },
+        "vaccinations": {
+            "doses_0": 56219,
+            "doses_0_percentage": 3.5,
+            "doses_1": 1185206,
+            "doses_1_percentage": 73.74,
+            "doses_2": 1031455,
+            "doses_2_percentage": 64.17,
+            "doses_3": 598506,
+            "doses_3_percentage": 37.24,
+            "fully_vaccinated": 1087674,
+            "percentage_fully_vaccinated": 67.67,
+            "total": 2871386,
+            "last_update": "2023-07-30"
+        }
+    }
+]
